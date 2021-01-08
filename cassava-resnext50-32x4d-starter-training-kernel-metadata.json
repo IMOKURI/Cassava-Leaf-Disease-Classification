@@ -10,7 +10,7 @@
   "enable_internet": true,
   "keywords": [],
   "dataset_sources": [
-    "imokuri/robust-bitempered-logistic-loss",
+    "imokuri/bitemperedlogloss",
     "yasufuminakama/pytorch-image-models"
   ],
   "kernel_sources": [],
