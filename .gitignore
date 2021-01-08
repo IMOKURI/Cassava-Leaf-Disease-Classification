@@ -1,3 +1,13 @@
+# pytorch model
+*.pth
+
+# Kaggle kernel metadata
+kernel-metadata.json
+
+# Kaggle kernel output files
+oof_df.csv
+submission.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

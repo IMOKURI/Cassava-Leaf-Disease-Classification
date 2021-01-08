@@ -2,6 +2,10 @@
 
 ## Memo
 
+### GPU
+
+- [Multi GPU](https://aru47.hatenablog.com/entry/2020/11/06/225052)
+
 ### Model
 
 - Resnext50_32x4d

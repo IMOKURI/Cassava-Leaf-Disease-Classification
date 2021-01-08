@@ -1,0 +1,19 @@
+{
+  "id": "imokuri/cassava-resnext50-32x4d-starter-training",
+  "id_no": 14081570,
+  "title": "Cassava / resnext50_32x4d starter [training]",
+  "code_file": "cassava-resnext50-32x4d-starter-training.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "yasufuminakama/pytorch-image-models"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "cassava-leaf-disease-classification"
+  ]
+}
