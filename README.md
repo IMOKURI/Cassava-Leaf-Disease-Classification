@@ -4,17 +4,17 @@
 
 ### GPU
 
-- [Multi GPU](https://aru47.hatenablog.com/entry/2020/11/06/225052)
+- [x] [Multi GPU](https://aru47.hatenablog.com/entry/2020/11/06/225052)
 
 ### Model
 
-- Resnext50_32x4d
+- [x] Resnext50_32x4d
 - EfficientNet
 - vision transformer
 
 ### Loss
 
-- [Bi-Tempered Logistic Loss](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/202017)
+- [x] [Bi-Tempered Logistic Loss](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/202017)
 
 
 ### Tips
