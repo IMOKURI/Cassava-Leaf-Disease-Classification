@@ -7,9 +7,10 @@
   "kernel_type": "notebook",
   "is_private": true,
   "enable_gpu": true,
-  "enable_internet": false,
+  "enable_internet": true,
   "keywords": [],
   "dataset_sources": [
+    "imokuri/robust-bitempered-logistic-loss",
     "yasufuminakama/pytorch-image-models"
   ],
   "kernel_sources": [],
