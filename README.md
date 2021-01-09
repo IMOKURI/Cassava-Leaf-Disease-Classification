@@ -2,9 +2,9 @@
 
 ## Score
 
-| Train                                                                                                           | Inference                                                                                                       | Model           | Public LB | CV      | Comment                         |
-| ---                                                                                                             | ---                                                                                                             | ---             | ---       | ---     | ---                             |
-| https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/59a171a0e4ee6c8d7f87a3e9248333506a466405 | https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c0832c6fcb233e2d96f87335e3f663995d5a3e6f | resnext50_32x4d | 0.894     | 0.88568 | image size: 256 -> 384, batch size: 32 -> 16 |
+| Train      | Inference | Model           | Public LB | CV      | Comment                                      |
+| ---        | ---       | ---             | ---       | ---     | ---                                          |
+| [v1-train] | [v1-inf]  | resnext50_32x4d | 0.894     | 0.88568 | image size: 256 -> 384, batch size: 32 -> 16 |
 
 ## Memo
 
@@ -33,3 +33,7 @@
 ### Tips
 
 - [A few things for easy start](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
+
+
+[v1-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/59a171a0e4ee6c8d7f87a3e9248333506a466405
+[v1-inf]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c0832c6fcb233e2d96f87335e3f663995d5a3e6f
