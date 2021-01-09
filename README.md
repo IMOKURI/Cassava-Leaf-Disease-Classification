@@ -9,7 +9,8 @@
 ### Datasets
 
 - [ ] [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
-- [x] [Image size 512](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
+- [x] [Image size 384](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
+    - [ ] Try 512 (and control batch size.)
 
 ### Model
 
