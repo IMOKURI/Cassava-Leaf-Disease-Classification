@@ -14,7 +14,11 @@
 
 ### Datasets
 
-- [ ] [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
+- [x] [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
+- [ ] Oversampling classes 0, 1, 2, and 4
+
+### Preprocessing
+
 - [x] [Image size 384](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
     - [ ] Try 512 (and control batch size.)
 
@@ -33,6 +37,7 @@
 ### Tips
 
 - [A few things for easy start](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
+- [Sharing some improvements and experiments](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/203594)
 
 
 [v1-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/59a171a0e4ee6c8d7f87a3e9248333506a466405
