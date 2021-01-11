@@ -6,6 +6,7 @@
 | ---        | ---       | ---             | ---       | ---     | ---                                          |
 | [v1-train] | [v1-inf]  | resnext50_32x4d | 0.894     | 0.88568 | image size: 256 -> 384, batch size: 32 -> 16 |
 | [v2]       | [v2]      | resnext50_32x4d | 0.890     | 0.88674 | add 2019 dataset, batch size: 16 -> 24       |
+| [v3]       | [v3]      | resnext50_32x4d | 0.891     | 0.88772 | image size: 384 -> 512, batch size: 24 -> 14 |
 
 ## Memo
 
@@ -44,3 +45,4 @@
 [v1-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/59a171a0e4ee6c8d7f87a3e9248333506a466405
 [v1-inf]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c0832c6fcb233e2d96f87335e3f663995d5a3e6f
 [v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/d8017ac61f1487ef9b8c167db6c7966847399673
+[v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/55377f11fe060e03bff0c89ff9a6b9add1f3c337
