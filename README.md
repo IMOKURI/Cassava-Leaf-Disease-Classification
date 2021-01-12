@@ -18,12 +18,12 @@
 ### Datasets
 
 - [x] [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
-- [ ] Oversampling classes 0, 1, 2, and 4
+- [ ] [Oversampling classes 0, 1, 2, and 4](https://www.kaggle.com/dimitreoliveira/cassava-leaf-disease-training-with-tpu-v2-pods#Training-data-samples-(with-augmentation))
 
 ### Preprocessing
 
-- [x] [Image size 384](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
-    - [ ] Try 512 (and control batch size.)
+- [x] [Image size 512](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
+- [ ] [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
 
 ### Model
 
@@ -36,6 +36,9 @@
 - [x] [Bi-Tempered Logistic Loss](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/202017)
     - [x] [with label smoothing](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook#Bi-Tempered-Loss)
 
+### Inference
+
+- [x] [TTA(Test Time Augmentation)](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-inference-tta)
 
 ### Tips
 
