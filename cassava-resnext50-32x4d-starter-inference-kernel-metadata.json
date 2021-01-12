@@ -8,13 +8,14 @@
   "is_private": true,
   "enable_gpu": true,
   "enable_internet": false,
-  "keywords": [],
+  "keywords": [
+    "gpu"
+  ],
   "dataset_sources": [
     "yasufuminakama/pytorch-image-models",
     "imokuri/cassava-resnext50-32x4d-starter"
   ],
-  "kernel_sources": [
-  ],
+  "kernel_sources": [],
   "competition_sources": [
     "cassava-leaf-disease-classification"
   ]
