@@ -10,6 +10,7 @@
 | same above | [v3-TTA]    | resnext50_32x4d | 0.889     | same above | TTA x3 mean()                                |
 | same above | [v3-TTAx7]  | resnext50_32x4d | 0.891     | same above | TTA x7 mean()                                |
 | same above | [v3-TTAx10] | resnext50_32x4d | 0.893     | same above | TTA x10 mean()                               |
+| same above | [v3-TTAx15] | resnext50_32x4d | 0.894     | same above | TTA x15 mean()                               |
 
 ## Memo
 
@@ -55,3 +56,4 @@
 [v3-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8f1fbf66d74cd00e163d35d9cee717a805fcd6bd
 [v3-TTAx7]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/1863c98425e322ad2a7e0b662d0e6e1f871fc62b
 [v3-TTAx10]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e92433fc5bd6c8a3d456586050b1a77ca1df0e17
+[v3-TTAx15]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/7297aecb96fc1630178344702f5466c50bd1c836
