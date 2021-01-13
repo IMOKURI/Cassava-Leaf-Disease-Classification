@@ -59,4 +59,4 @@
 [v3-TTAx10]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e92433fc5bd6c8a3d456586050b1a77ca1df0e17
 [v3-TTAx15]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/7297aecb96fc1630178344702f5466c50bd1c836
 [v4-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c88d247a84fd424d58403437888346e458466a1c
-[v4-inf]: 
+[v4-inf]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/da37e635677cefd6df64f5ff38d286f336af7b92
