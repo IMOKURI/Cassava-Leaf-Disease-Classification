@@ -2,12 +2,13 @@
 
 ## Score
 
-| Train      | Inference | Model           | Public LB | CV         | Comment                                      |
-| ---        | ---       | ---             | ---       | ---        | ---                                          |
-| [v1-train] | [v1-inf]  | resnext50_32x4d | 0.894     | 0.88568    | image size: 256 -> 384, batch size: 32 -> 16 |
-| [v2]       | [v2]      | resnext50_32x4d | 0.890     | 0.88674    | add 2019 dataset, batch size: 16 -> 24       |
-| [v3]       | [v3]      | resnext50_32x4d | 0.891     | 0.88772    | image size: 384 -> 512, batch size: 24 -> 14 |
-| same above | [v3-TTA]  | resnext50_32x4d | 0.889     | same above | TTA x3 mean()                                |
+| Train      | Inference  | Model           | Public LB | CV         | Comment                                      |
+| ---        | ---        | ---             | ---       | ---        | ---                                          |
+| [v1-train] | [v1-inf]   | resnext50_32x4d | 0.894     | 0.88568    | image size: 256 -> 384, batch size: 32 -> 16 |
+| [v2]       | [v2]       | resnext50_32x4d | 0.890     | 0.88674    | add 2019 dataset, batch size: 16 -> 24       |
+| [v3]       | [v3]       | resnext50_32x4d | 0.891     | 0.88772    | image size: 384 -> 512, batch size: 24 -> 14 |
+| same above | [v3-TTA]   | resnext50_32x4d | 0.889     | same above | TTA x3 mean()                                |
+| same above | [v3-TTAx7] | resnext50_32x4d | 0.891     | same above | TTA x7 mean()                                |
 
 ## Memo
 
@@ -51,3 +52,4 @@
 [v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/d8017ac61f1487ef9b8c167db6c7966847399673
 [v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/55377f11fe060e03bff0c89ff9a6b9add1f3c337
 [v3-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8f1fbf66d74cd00e163d35d9cee717a805fcd6bd
+[v3-TTAx7]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/1863c98425e322ad2a7e0b662d0e6e1f871fc62b
