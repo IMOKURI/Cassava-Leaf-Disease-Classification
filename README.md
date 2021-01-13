@@ -13,6 +13,7 @@
 | same above | [v3-TTAx15] | resnext50_32x4d | 0.894     | same above | TTA x15 mean()                               |
 | [v4-train] | [v4-inf]    | resnext50_32x4d | 0.895     | 0.88822    | add augmentation functions, no TTA           |
 | same above | [v4-TTAx3]  | resnext50_32x4d | 0.893     | same above | TTA x3 mean()                                |
+| same above | [v4-TTAx10] | resnext50_32x4d | -         | same above | TTA x10 mean()                               |
 
 ## Memo
 
@@ -43,7 +44,7 @@
 
 ### Training
 
-- [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
+- [ ] [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
 - early stopping
 
 ### Inference
@@ -68,3 +69,4 @@
 [v4-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c88d247a84fd424d58403437888346e458466a1c
 [v4-inf]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/da37e635677cefd6df64f5ff38d286f336af7b92
 [v4-TTAx3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/af68da580b9ab946e423da2199adb95c8956ca43
+[v4-TTAx10]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8380374c5fc9af94a2d1f0d52c42c9c841bfbfda
