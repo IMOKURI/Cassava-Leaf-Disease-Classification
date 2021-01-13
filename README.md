@@ -27,12 +27,12 @@
 ### Preprocessing
 
 - [x] [Image size 512](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
-- [ ] [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
+- [x] [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
 
 ### Model
 
 - [x] Resnext50_32x4d
-- EfficientNet
+- [ ] EfficientNet
 - vision transformer
 
 ### Loss
