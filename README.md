@@ -13,7 +13,7 @@
 | same above | [v3-TTAx15] | resnext50_32x4d | 0.894     | same above | TTA x15 mean()                               |
 | [v4-train] | [v4-inf]    | resnext50_32x4d | 0.895     | 0.88822    | add augmentation functions, no TTA           |
 | same above | [v4-TTAx3]  | resnext50_32x4d | 0.893     | same above | TTA x3 mean()                                |
-| same above | [v4-TTAx10] | resnext50_32x4d | -         | same above | TTA x10 mean()                               |
+| same above | [v4-TTAx10] | resnext50_32x4d | 0.895     | same above | TTA x10 mean()                               |
 
 ## Memo
 
