@@ -15,7 +15,7 @@
 | same above    | [v4-TTAx3]         | resnext50_32x4d       | 0.893     | same above | TTA x3 mean()                                         |
 | same above    | [v4-TTAx10]        | resnext50_32x4d       | 0.895     | same above | TTA x10 mean()                                        |
 | same above    | [v4-TTAx10-simple] | resnext50_32x4d       | 0.894     | same above | TTA x10 mean() simplify                               |
-| [b4-v1-train] | [b4-v1-inf-noTTA]  | tf_efficientnet_b4_ns | -         | 0.88879    | Use EfficientNet B4 Noisy Student based on [v4-train] |
+| [b4-v1-train] | [b4-v1-inf-noTTA]  | tf_efficientnet_b4_ns | 0.893     | 0.88879    | Use EfficientNet B4 Noisy Student based on [v4-train] |
 
 ## Memo
 
