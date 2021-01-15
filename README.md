@@ -53,7 +53,7 @@
 ### Inference
 
 - [x] [TTA(Test Time Augmentation)](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-inference-tta)
-- [ ] [Include original image on TTA](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1153396)
+- [x] [Include original image on TTA](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1153396)
 
 ### Tips
 
