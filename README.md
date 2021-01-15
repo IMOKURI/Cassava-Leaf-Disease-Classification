@@ -15,7 +15,7 @@
 | same above    | [v4-TTAx3]         | resnext50_32x4d       | 0.893     | same above | TTA x3 mean()                                         |
 | same above    | [v4-TTAx10]        | resnext50_32x4d       | 0.895     | same above | TTA x10 mean()                                        |
 | same above    | [v4-TTAx10-simple] | resnext50_32x4d       | 0.894     | same above | TTA x10 mean() simplify                               |
-| [b4-v1-train] | [b4-v1-inf]        | tf_efficientnet_b4_ns | -         | 0.88879    | Use EfficientNet B4 Noisy Student based on [v4-train] |
+| [b4-v1-train] | [b4-v1-inf-noTTA]  | tf_efficientnet_b4_ns | -         | 0.88879    | Use EfficientNet B4 Noisy Student based on [v4-train] |
 
 ## Memo
 
@@ -76,4 +76,4 @@
 [v4-TTAx10]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8380374c5fc9af94a2d1f0d52c42c9c841bfbfda
 [v4-TTAx10-simple]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/1d82bb6509100281ce563b339b85a23524dbf1f6
 [b4-v1-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/0a253ac1dd41f17b3f42b9d442a97fe6c12ea7af
-[b4-v1-inf]:
+[b4-v1-inf-noTTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e10c0bd10cc8fadfb03a127cdf781037229731f1
