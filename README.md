@@ -2,19 +2,20 @@
 
 ## Score
 
-| Train      | Inference          | Model           | Public LB | CV         | Comment                                      |
-| ---        | ---                | ---             | ---       | ---        | ---                                          |
-| [v1-train] | [v1-inf]           | resnext50_32x4d | 0.894     | 0.88568    | image size: 256 -> 384, batch size: 32 -> 16 |
-| [v2]       | [v2]               | resnext50_32x4d | 0.890     | 0.88674    | add 2019 dataset, batch size: 16 -> 24       |
-| [v3]       | [v3]               | resnext50_32x4d | 0.891     | 0.88772    | image size: 384 -> 512, batch size: 24 -> 14 |
-| same above | [v3-TTA]           | resnext50_32x4d | 0.889     | same above | TTA x3 mean()                                |
-| same above | [v3-TTAx7]         | resnext50_32x4d | 0.891     | same above | TTA x7 mean()                                |
-| same above | [v3-TTAx10]        | resnext50_32x4d | 0.893     | same above | TTA x10 mean()                               |
-| same above | [v3-TTAx15]        | resnext50_32x4d | 0.894     | same above | TTA x15 mean()                               |
-| [v4-train] | [v4-inf]           | resnext50_32x4d | 0.895     | 0.88822    | add augmentation functions, no TTA           |
-| same above | [v4-TTAx3]         | resnext50_32x4d | 0.893     | same above | TTA x3 mean()                                |
-| same above | [v4-TTAx10]        | resnext50_32x4d | 0.895     | same above | TTA x10 mean()                               |
-| same above | [v4-TTAx10-simple] | resnext50_32x4d | 0.894     | same above | TTA x10 mean() simplify                      |
+| Train         | Inference          | Model                 | Public LB | CV         | Comment                                               |
+| ---           | ---                | ---                   | ---       | ---        | ---                                                   |
+| [v1-train]    | [v1-inf]           | resnext50_32x4d       | 0.894     | 0.88568    | image size: 256 -> 384, batch size: 32 -> 16          |
+| [v2]          | [v2]               | resnext50_32x4d       | 0.890     | 0.88674    | add 2019 dataset, batch size: 16 -> 24                |
+| [v3]          | [v3]               | resnext50_32x4d       | 0.891     | 0.88772    | image size: 384 -> 512, batch size: 24 -> 14          |
+| same above    | [v3-TTA]           | resnext50_32x4d       | 0.889     | same above | TTA x3 mean()                                         |
+| same above    | [v3-TTAx7]         | resnext50_32x4d       | 0.891     | same above | TTA x7 mean()                                         |
+| same above    | [v3-TTAx10]        | resnext50_32x4d       | 0.893     | same above | TTA x10 mean()                                        |
+| same above    | [v3-TTAx15]        | resnext50_32x4d       | 0.894     | same above | TTA x15 mean()                                        |
+| [v4-train]    | [v4-inf]           | resnext50_32x4d       | 0.895     | 0.88822    | add augmentation functions, no TTA                    |
+| same above    | [v4-TTAx3]         | resnext50_32x4d       | 0.893     | same above | TTA x3 mean()                                         |
+| same above    | [v4-TTAx10]        | resnext50_32x4d       | 0.895     | same above | TTA x10 mean()                                        |
+| same above    | [v4-TTAx10-simple] | resnext50_32x4d       | 0.894     | same above | TTA x10 mean() simplify                               |
+| [b4-v1-train] | [b4-v1-inf]        | tf_efficientnet_b4_ns | -         | 0.88879    | Use EfficientNet B4 Noisy Student based on [v4-train] |
 
 ## Memo
 
@@ -74,3 +75,5 @@
 [v4-TTAx3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/af68da580b9ab946e423da2199adb95c8956ca43
 [v4-TTAx10]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8380374c5fc9af94a2d1f0d52c42c9c841bfbfda
 [v4-TTAx10-simple]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/1d82bb6509100281ce563b339b85a23524dbf1f6
+[b4-v1-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/0a253ac1dd41f17b3f42b9d442a97fe6c12ea7af
+[b4-v1-inf]:
