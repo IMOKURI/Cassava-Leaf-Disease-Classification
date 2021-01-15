@@ -18,6 +18,7 @@
 | [b4-v1-train]            | [b4-v1-inf-noTTA]  | tf_efficientnet_b4_ns                  | 0.893     | 0.88879    | Use EfficientNet B4 Noisy Student based on [v4-train] |
 | [v4-train] [b4-v1-train] | [ensemble-v1]      | resnext50_32x4d, tf_efficientnet_b4_ns | 0.895     | -          | Ensemble ResNext50, EfficientNet B4                   |
 | same above               | [ensemble-v2]      | resnext50_32x4d, tf_efficientnet_b4_ns | 0.892     | -          | Ensemble ResNext50, EfficientNet B4, TTA x3           |
+| same above               | [ensemble-v3]      | resnext50_32x4d, tf_efficientnet_b4_ns | -         | -          | Ensemble ResNext50, EfficientNet B4, TTA x8           |
 
 ## Memo
 
@@ -81,3 +82,4 @@
 [b4-v1-inf-noTTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e10c0bd10cc8fadfb03a127cdf781037229731f1
 [ensemble-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/3aba137bfcafc5bde60bf291ab396bf6bcbc9917
 [ensemble-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/1f22409d2062fa0ae2f527c7471d2d00bd0a95b0
+[ensemble-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/5ffe1e137f93cecf0e67df24d09ab2d56dec94b3
