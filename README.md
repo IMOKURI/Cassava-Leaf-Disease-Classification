@@ -52,7 +52,6 @@
 ### Training
 
 - [ ] [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
-- early stopping
 
 ### Inference
 
