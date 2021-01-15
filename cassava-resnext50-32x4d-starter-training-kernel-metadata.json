@@ -11,7 +11,8 @@
   "keywords": [],
   "dataset_sources": [
     "imokuri/bitemperedlogloss",
-    "yasufuminakama/pytorch-image-models"
+    "yasufuminakama/pytorch-image-models",
+    "khyeh0719/image-fmix"
   ],
   "kernel_sources": [],
   "competition_sources": [
