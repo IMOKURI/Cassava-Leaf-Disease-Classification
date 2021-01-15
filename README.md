@@ -36,6 +36,7 @@
 - [x] [Image size 512](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
 - [x] [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
 - [ ] [`CenterCrop` instead of `Resize`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1151453)
+- [ ] [`CutMix`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
 
 ### Model
 
