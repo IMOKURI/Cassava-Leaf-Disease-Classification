@@ -17,7 +17,7 @@
 | same above               | [v4-TTAx10-simple] | resnext50_32x4d                        | 0.894     | same above | TTA x10 mean() simplify                               |
 | [b4-v1-train]            | [b4-v1-inf-noTTA]  | tf_efficientnet_b4_ns                  | 0.893     | 0.88879    | Use EfficientNet B4 Noisy Student based on [v4-train] |
 | [v4-train] [b4-v1-train] | [ensemble-v1]      | resnext50_32x4d, tf_efficientnet_b4_ns | 0.895     | -          | Ensemble ResNext50, EfficientNet B4                   |
-| same above               | [ensemble-v2]      | resnext50_32x4d, tf_efficientnet_b4_ns | -         | -          | Ensemble ResNext50, EfficientNet B4, TTA x3           |
+| same above               | [ensemble-v2]      | resnext50_32x4d, tf_efficientnet_b4_ns | 0.892     | -          | Ensemble ResNext50, EfficientNet B4, TTA x3           |
 
 ## Memo
 
