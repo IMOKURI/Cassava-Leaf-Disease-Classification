@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 KERNEL_RESNEXT50_TRAINING := cassava-resnext50-32x4d-starter-training
-KERNEL_INFERENCE := cassava-resnext50-32x4d-starter-inference
+KERNEL_INFERENCE := cassava-inference
 KERNEL_TRAINING := cassava-training
 
 define pull
