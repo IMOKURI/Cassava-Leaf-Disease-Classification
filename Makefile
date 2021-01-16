@@ -2,6 +2,7 @@
 
 KERNEL_RESNEXT50_TRAINING := cassava-resnext50-32x4d-starter-training
 KERNEL_INFERENCE := cassava-resnext50-32x4d-starter-inference
+KERNEL_TRAINING := cassava-training
 
 define pull
 	rm -f kernel-metadata.json
@@ -26,6 +27,12 @@ pull-inf: ## Pull kernel $(KERNEL_INFERENCE)
 
 push-inf: ## Push kernel $(KERNEL_INFERENCE)
 	$(call push,$(KERNEL_INFERENCE))
+
+pull-train: ## Pull kernel $(KERNEL_TRAINING)
+	$(call pull,$(KERNEL_TRAINING))
+
+push-train: ## Push kernel $(KERNEL_TRAINING)
+	$(call push,$(KERNEL_TRAINING))
 
 help: ## Show this help
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / \

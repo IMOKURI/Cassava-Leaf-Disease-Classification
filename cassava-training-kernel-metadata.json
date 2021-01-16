@@ -1,0 +1,24 @@
+{
+  "id": "imokuri/cassava-training",
+  "id_no": 14263806,
+  "title": "Cassava - Training",
+  "code_file": "cassava-training.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "khyeh0719/image-fmix",
+    "tahsin/cassava-leaf-disease-merged",
+    "yasufuminakama/pytorch-image-models",
+    "imokuri/bitemperedlogloss"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "cassava-leaf-disease-classification"
+  ]
+}
