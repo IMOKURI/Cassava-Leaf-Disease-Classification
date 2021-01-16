@@ -1,6 +1,5 @@
 .DEFAULT_GOAL := help
 
-KERNEL_RESNEXT50_TRAINING := cassava-resnext50-32x4d-starter-training
 KERNEL_INFERENCE := cassava-inference
 KERNEL_TRAINING := cassava-training
 
@@ -15,12 +14,6 @@ define push
 	cp $1-kernel-metadata.json kernel-metadata.json
 	kaggle kernels push
 endef
-
-pull-resnext-train: ## Pull kernel $(KERNEL_RESNEXT50_TRAINING)
-	$(call pull,$(KERNEL_RESNEXT50_TRAINING))
-
-push-resnext-train: ## Push kernel $(KERNEL_RESNEXT50_TRAINING) 
-	$(call push,$(KERNEL_RESNEXT50_TRAINING))
 
 pull-inf: ## Pull kernel $(KERNEL_INFERENCE)
 	$(call pull,$(KERNEL_INFERENCE))
