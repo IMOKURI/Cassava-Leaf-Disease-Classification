@@ -19,7 +19,7 @@
 | [v4-train] [b4-v1-train] | [ensemble-v1]      | resnext50_32x4d, tf_efficientnet_b4_ns | 0.895     | -          | Ensemble ResNext50, EfficientNet B4                   |
 | same above               | [ensemble-v2]      | resnext50_32x4d, tf_efficientnet_b4_ns | 0.892     | -          | Ensemble ResNext50, EfficientNet B4, TTA x3           |
 | same above               | [ensemble-v3]      | resnext50_32x4d, tf_efficientnet_b4_ns | 0.894     | -          | Ensemble ResNext50, EfficientNet B4, TTA x8           |
-| [v5-train]               | [v5-inf]           | resnext50_32x4d                        | -         | 0.89365    | Oversampling 0, 1, 2 and 4                            |
+| [v5-train]               | [v5-inf]           | resnext50_32x4d                        | 0.882     | 0.89365    | Oversampling 0, 1, 2 and 4                            |
 
 
 [v1-train]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/59a171a0e4ee6c8d7f87a3e9248333506a466405
