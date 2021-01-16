@@ -12,15 +12,15 @@
 
 ### Datasets
 
-- [x] [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
-- [ ] [Oversampling classes 0, 1, 2, and 4](https://www.kaggle.com/dimitreoliveira/cassava-leaf-disease-training-with-tpu-v2-pods#Dataset-oversampled)
+- [x] Good! [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
+- [ ] Bad.. [Oversampling classes 0, 1, 2, and 4](https://www.kaggle.com/dimitreoliveira/cassava-leaf-disease-training-with-tpu-v2-pods#Dataset-oversampled)
 
 ### Preprocessing
 
-- [x] [Image size 512](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
-- [x] [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
+- [x] Good! [Image size 512](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
+- [x] Good! [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
 - [ ] [`CenterCrop` instead of `Resize`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1151453)
-- [x] [`CutMix`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
+- [x] Good! [`CutMix`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
 
 ### Model
 
@@ -30,12 +30,12 @@
 
 ### Loss
 
-- [x] [Bi-Tempered Logistic Loss](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/202017)
+- [x] Good! [Bi-Tempered Logistic Loss](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/202017)
     - [x] [with label smoothing](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook#Bi-Tempered-Loss)
 
 ### Training
 
-- [x] [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
+- [x] Good! [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
 
 ### Inference
 
