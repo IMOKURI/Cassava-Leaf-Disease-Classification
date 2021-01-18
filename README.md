@@ -3,7 +3,7 @@
 ## Score
 
 - [01-starter](history/01-starter.md)
-- [02-baseline](history/01-baseline.md)
+- [02-baseline](history/02-baseline.md)
 
 ## Memo
 
