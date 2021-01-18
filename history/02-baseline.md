@@ -2,11 +2,11 @@
 
 ## Score
 
-| Train          | Inference          | Model                               | Public LB | CV      | Comment |
-| ---            | ---                | ---                                 | ---       | ---     | ---     |
-| [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d                     | 0.894     | 0.89069 | -       |
-| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns                  | 0.900     | 0.89103 | -       |
-| -              | [ensemble-v1]      | resnext50_32x4d, efficientnet_b4_ns | 0.894     | -       | -       |
+| Train          | Inference          | Model                               | Public LB | CV      | Comment                            |
+| ---            | ---                | ---                                 | ---       | ---     | ---                                |
+| [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d                     | 0.894     | 0.89069 | -                                  |
+| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns                  | 0.900     | 0.89103 | CutMix, freeze batch normalization |
+| -              | [ensemble-v1]      | resnext50_32x4d, efficientnet_b4_ns | 0.894     | -       | -                                  |
 
 
 [efficient-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/bc1bc571b52a0d3b5ec6e739fc5bc5e598c26c62
