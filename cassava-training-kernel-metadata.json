@@ -15,7 +15,8 @@
     "khyeh0719/image-fmix",
     "tahsin/cassava-leaf-disease-merged",
     "yasufuminakama/pytorch-image-models",
-    "imokuri/bitemperedlogloss"
+    "imokuri/bitemperedlogloss",
+    "imokuri/pytorchcosineannealingwithwarmup"
   ],
   "kernel_sources": [],
   "competition_sources": [
