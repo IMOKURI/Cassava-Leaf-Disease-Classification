@@ -6,7 +6,7 @@
 | ---            | ---                | ---                                 | ---       | ---     | ---                                |
 | [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d                     | 0.894     | 0.89069 | -                                  |
 | [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns                  | 0.900     | 0.89103 | CutMix, freeze batch normalization |
-| same           | [efficient-inf-v2] | efficientnet_b4_ns                  |           | same    | TTA x10                            |
+| same           | [efficient-inf-v2] | efficientnet_b4_ns                  | 0.898     | same    | TTA x10                            |
 | -              | [ensemble-v1]      | resnext50_32x4d, efficientnet_b4_ns | 0.894     | -       | -                                  |
 
 
