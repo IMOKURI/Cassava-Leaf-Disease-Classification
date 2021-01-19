@@ -20,6 +20,7 @@
 
 - [x] Good! [Image size 512](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
 - [x] Good! [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
+    - [ ] Remove augmentation for final epoch.
 - [ ] [`CenterCrop` instead of `Resize`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1151453)
 - [x] Good! [`CutMix`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
 
@@ -37,6 +38,7 @@
 ### Training
 
 - [x] Good! [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
+- [ ] Gradient accumulation for increasing batch size.
 
 ### Inference
 
