@@ -23,6 +23,7 @@
     - [ ] Remove augmentation for final epoch.
 - [ ] [`CenterCrop` instead of `Resize`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1151453)
 - [x] Good! [`CutMix`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
+- [ ] [MixUp](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/212060)
 
 ### Model
 
