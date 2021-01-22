@@ -30,6 +30,7 @@
 - [x] Resnext50_32x4d
 - [x] EfficientNet B3, B4 with Noisy Student
 - [ ] vision transformer
+- [ ] [DeiT: Data-efficient Image Transformers](https://github.com/facebookresearch/deit)
 
 ### Loss
 
