@@ -9,7 +9,7 @@
 | same           | [efficient-inf-v2] | efficientnet_b4_ns                  | 0.898     | same        | TTA x10                                              |
 | -              | [ensemble-v1]      | resnext50_32x4d, efficientnet_b4_ns | 0.894     | -           | -                                                    |
 | [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns                  | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
-| [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                  |           | **0.89137** | MixUp                                                |
+| [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                  | 0.898     | **0.89137** | MixUp                                                |
 | [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                |           | 0.88958     | based on [efficient-v3]                              |
 
 
