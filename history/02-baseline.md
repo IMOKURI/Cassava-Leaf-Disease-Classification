@@ -10,7 +10,7 @@
 | -              | [ensemble-v1]      | resnext50_32x4d, efficientnet_b4_ns | 0.894     | -           | -                                                    |
 | [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns                  | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
 | [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                  | 0.898     | **0.89137** | MixUp                                                |
-| [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                |           | 0.88958     | based on [efficient-v3]                              |
+| [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                | 0.897     | 0.88958     | based on [efficient-v3]                              |
 
 
 [efficient-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/bc1bc571b52a0d3b5ec6e739fc5bc5e598c26c62
