@@ -11,10 +11,11 @@
 | [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns                  | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
 | [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                  | 0.898     | **0.89137** | MixUp                                                |
 | [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                | 0.897     | 0.88958     | based on [efficient-v3]                              |
-| [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384               |           | 0.89019     | based on [efficient-v1]                              |
+| [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384               | 0.895     | 0.89019     | based on [efficient-v1]                              |
 
 
 [deit-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9181ff1cb82f62d6cafffc331b49920194544d32
+[deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
 [efficient-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/bc1bc571b52a0d3b5ec6e739fc5bc5e598c26c62
 [efficient-inf-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/05454a2cb7f7ffac5680cd3c69421b7a81e72e77
 [efficient-inf-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/81633875dcaa68399b8b7e86e248a86758a0706a
