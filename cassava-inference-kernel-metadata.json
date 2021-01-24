@@ -11,7 +11,8 @@
   "keywords": [],
   "dataset_sources": [
     "yasufuminakama/pytorch-image-models",
-    "imokuri/cassava-model"
+    "imokuri/cassava-model",
+    "kozistr/fair-deit"
   ],
   "kernel_sources": [],
   "competition_sources": [
