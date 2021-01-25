@@ -12,7 +12,7 @@
 | [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                  | 0.898     | 0.89137     | MixUp                                                |
 | [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                | 0.897     | 0.88958     | based on [efficient-v3]                              |
 | [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384               | 0.895     | 0.89019     | based on [efficient-v1]                              |
-| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns               |           | **0.89255** | based on [deit-v1], batch update, increase min lr    |
+| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns               | 0.895     | **0.89255** | based on [deit-v1], batch update, increase min lr    |
 
 
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
