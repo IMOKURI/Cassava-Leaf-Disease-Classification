@@ -18,7 +18,7 @@
 
 ### [efficient-v1]
 
-![](./images/tf_efficientnet_b4_ns.png)
+![](../images/tf_efficientnet_b4_ns.png)
 
 ```
               precision    recall  f1-score   support
