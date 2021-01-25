@@ -14,6 +14,27 @@
 | [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384               | 0.895     | 0.89019     | based on [efficient-v1]                              |
 | [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns               | 0.895     | **0.89255** | based on [deit-v1], batch update, increase min lr    |
 
+## Validation
+
+### [efficient-v1]
+
+![](./images/tf_efficientnet_b4_ns.png)
+
+```
+              precision    recall  f1-score   support
+
+           0       0.74      0.75      0.74      1087
+           1       0.88      0.84      0.86      2189
+           2       0.87      0.85      0.86      2386
+           3       0.96      0.98      0.97     13158
+           4       0.80      0.79      0.79      2577
+
+    accuracy                           0.91     21397
+   macro avg       0.85      0.84      0.85     21397
+weighted avg       0.91      0.91      0.91     21397
+```
+
+
 
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
 [deit-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9181ff1cb82f62d6cafffc331b49920194544d32
