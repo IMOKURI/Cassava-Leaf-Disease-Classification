@@ -34,6 +34,23 @@
 weighted avg       0.91      0.91      0.91     21397
 ```
 
+### [efnet-b3-v1]
+
+![](../images/tf_efficientnet_b3_ns.png)
+
+```
+              precision    recall  f1-score   support
+
+           0       0.83      0.80      0.82      1087
+           1       0.92      0.88      0.90      2189
+           2       0.90      0.89      0.90      2386
+           3       0.97      0.99      0.98     13158
+           4       0.86      0.85      0.86      2577
+
+    accuracy                           0.94     21397
+   macro avg       0.90      0.88      0.89     21397
+weighted avg       0.94      0.94      0.94     21397
+```
 
 
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
