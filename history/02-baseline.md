@@ -5,8 +5,9 @@
 | Train          | Inference          | Model                               | Public LB | CV          | Comment                                              |
 | ---            | ---                | ---                                 | ---       | ---         | ---                                                  |
 | [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d                     | 0.894     | 0.89069     | -                                                    |
-| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns                  | **0.900** | 0.89103     | CutMix, freeze batch normalization                   |
+| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns                  | 0.900     | 0.89103     | CutMix, freeze batch normalization                   |
 | same           | [efficient-inf-v2] | efficientnet_b4_ns                  | 0.898     | same        | TTA x10                                              |
+| same           | [efficient-inf-v5] | efficientnet_b4_ns                  | **0.901** | same        | TTA x7                                               |
 | -              | [ensemble-v1]      | resnext50_32x4d, efficientnet_b4_ns | 0.894     | -           | -                                                    |
 | [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns                  | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
 | [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                  | 0.898     | 0.89137     | MixUp                                                |
@@ -60,6 +61,7 @@ weighted avg       0.94      0.94      0.94     21397
 [efficient-inf-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/05454a2cb7f7ffac5680cd3c69421b7a81e72e77
 [efficient-inf-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/81633875dcaa68399b8b7e86e248a86758a0706a
 [efficient-inf-v4]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/00c07dacea90e16672c3b9603ea666036722d1da
+[efficient-inf-v5]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e76954bd1a71d081f1653edddf4336a1dc5c589f
 [efficient-v1]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/f639150116370039666b7bab452abd85932f4d24
 [efficient-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/d19c4c26aaacc5f6c1e08d91821939f6d9c1e5d8
 [efficient-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/36ce5d1f60d7e42a7d8e60d54f32d5884ebff23c
