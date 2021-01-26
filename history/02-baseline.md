@@ -55,6 +55,24 @@ weighted avg       0.91      0.91      0.91     21397
 weighted avg       0.94      0.94      0.94     21397
 ```
 
+### [vt-v1]
+
+![](../images/vit_base_patch16_384.png)
+
+```
+              precision    recall  f1-score   support
+
+           0       0.80      0.80      0.80      1087
+           1       0.90      0.88      0.89      2189
+           2       0.90      0.85      0.87      2386
+           3       0.97      0.98      0.97     13158
+           4       0.85      0.82      0.84      2577
+
+    accuracy                           0.93     21397
+   macro avg       0.88      0.87      0.88     21397
+weighted avg       0.93      0.93      0.93     21397
+```
+
 
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
 [deit-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9181ff1cb82f62d6cafffc331b49920194544d32

@@ -53,3 +53,4 @@
 - [Sharing some improvements and experiments](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/203594)
 - [Important points to boost the LB score](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/208402)
 - [Practical tips for handling noisy data and annotaiton](https://www2.slideshare.net/RyuichiKanoh/practical-tips-for-handling-noisy-data-and-annotaiton-204195412)
+- [How to train your model when you cannot trust on the annotations?](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/214053)
