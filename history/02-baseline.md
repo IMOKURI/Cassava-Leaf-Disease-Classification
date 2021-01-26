@@ -12,7 +12,8 @@
 | [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                  | 0.898     | 0.89137     | MixUp                                                |
 | [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                | 0.897     | 0.88958     | based on [efficient-v3]                              |
 | [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384               | 0.895     | 0.89019     | based on [efficient-v1]                              |
-| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns               | 0.895     | **0.89255** | based on [deit-v1], batch update, increase min lr    |
+| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns               | 0.895     | 0.89255     | based on [deit-v1], batch update, increase min lr    |
+| [seres-v1]     | [seres-inf-v1]     | seresnext50_32x4d                   |           | **0.89422** | based on [efnet-b3-v1], MixUp                        |
 
 ## Validation
 
@@ -67,5 +68,6 @@ weighted avg       0.94      0.94      0.94     21397
 [ensemble-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/2add41e660eafaac35f87a4f506a5314383c9cba
 [resnext-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8fa6fe163d8e90cad183bc44d52e6e430510e5a8
 [resnext-v1]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/df110ca08bcbd3a69e45ffda3f33154bfde7fc12
+[seres-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/448848da662d9f7347b39439fb0af771ff019fd7
 [vt-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/4db1fb6173ab934c18b9d1ccdaefe1632d71e35a
 [vt-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e8bf753d3424c663a98679eb4016c538df819624
