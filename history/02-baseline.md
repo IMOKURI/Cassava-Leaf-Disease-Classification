@@ -73,6 +73,24 @@ weighted avg       0.94      0.94      0.94     21397
 weighted avg       0.93      0.93      0.93     21397
 ```
 
+### [seres-v1]
+
+![](../images/seresnext50_32x4d.png)
+
+```
+              precision    recall  f1-score   support
+
+           0       0.84      0.82      0.83      1087
+           1       0.93      0.89      0.91      2189
+           2       0.91      0.89      0.90      2386
+           3       0.97      0.99      0.98     13158
+           4       0.87      0.86      0.87      2577
+
+    accuracy                           0.94     21397
+   macro avg       0.91      0.89      0.90     21397
+weighted avg       0.94      0.94      0.94     21397
+```
+
 
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
 [deit-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9181ff1cb82f62d6cafffc331b49920194544d32
