@@ -15,7 +15,7 @@
 | [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384               | 0.895     | 0.89019     | based on [efficient-v1]                              |
 | [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns               | 0.895     | 0.89255     | based on [deit-v1], batch update, increase min lr    |
 | [seres-v1]     | [seres-inf-v1]     | seresnext50_32x4d                   | 0.900     | **0.89422** | based on [efnet-b3-v1], MixUp                        |
-| same           | [seres-inf-v2]     | seresnext50_32x4d                   |           | same        | TTA x7                                               |
+| same           | [seres-inf-v2]     | seresnext50_32x4d                   | 0.899     | same        | TTA x7                                               |
 
 ## Validation
 
