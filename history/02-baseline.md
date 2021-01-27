@@ -18,6 +18,7 @@
 | same           | [seres-inf-v2]     | seresnext50_32x4d                     | 0.900     | same        | TTA x7 (flip)                                        |
 | [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d                     | 0.899     | **0.89532** | label smoothing                                      |
 | -              | [ensemble-v2]      | efficientnet_b4_ns, seresnext50_32x4d | **0.903** | -           | [efficient-v1], [seres-v1], [seres-v2]               |
+| [vt-v2]        | [vt-inf-v2]        | vit_base_patch16_384                  |           | 0.89220     | label smoothing, freeze BN, etc                      |
 
 ## Validation
 
@@ -111,6 +112,25 @@ weighted avg       0.94      0.94      0.94     21397
 weighted avg       0.94      0.94      0.94     21397
 ```
 
+### [ensemble-v2]
+
+![](../images/ensemble.png)
+
+```
+              precision    recall  f1-score   support
+
+           0       0.84      0.83      0.84      1087
+           1       0.93      0.89      0.91      2189
+           2       0.91      0.89      0.90      2386
+           3       0.97      0.99      0.98     13158
+           4       0.88      0.86      0.87      2577
+
+    accuracy                           0.94     21397
+   macro avg       0.91      0.89      0.90     21397
+weighted avg       0.94      0.94      0.94     21397
+
+```
+
 
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
 [deit-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9181ff1cb82f62d6cafffc331b49920194544d32
@@ -135,3 +155,4 @@ weighted avg       0.94      0.94      0.94     21397
 [seres-inf-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/ad4d4c13527ef92fd3cf0f69b2954947231b267f
 [vt-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/4db1fb6173ab934c18b9d1ccdaefe1632d71e35a
 [vt-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e8bf753d3424c663a98679eb4016c538df819624
+[vt-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9b7093ed7501254f7705edd31f96467f2be00d8b
