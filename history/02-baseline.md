@@ -16,7 +16,7 @@
 | [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns               | 0.895     | 0.89255     | based on [deit-v1], batch update, increase min lr    |
 | [seres-v1]     | [seres-inf-v1]     | seresnext50_32x4d                   | 0.900     | 0.89422     | based on [efnet-b3-v1], MixUp                        |
 | same           | [seres-inf-v2]     | seresnext50_32x4d                   | 0.900     | same        | TTA x7 (flip)                                        |
-| [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d                   |           | **0.89532** | label smoothing |
+| [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d                   | 0.899     | **0.89532** | label smoothing |
 
 ## Validation
 
