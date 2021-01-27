@@ -92,6 +92,24 @@ weighted avg       0.93      0.93      0.93     21397
 weighted avg       0.94      0.94      0.94     21397
 ```
 
+### [seres-v2]
+
+![](../images/seresnext50_32x4d_v2.png)
+
+```
+              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84      1087
+           1       0.93      0.89      0.91      2189
+           2       0.91      0.89      0.90      2386
+           3       0.97      0.99      0.98     13158
+           4       0.89      0.86      0.87      2577
+
+    accuracy                           0.94     21397
+   macro avg       0.91      0.89      0.90     21397
+weighted avg       0.94      0.94      0.94     21397
+```
+
 
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
 [deit-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9181ff1cb82f62d6cafffc331b49920194544d32
@@ -112,5 +130,6 @@ weighted avg       0.94      0.94      0.94     21397
 [seres-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/fb7397ca97d624eb4db467c3d67a4c492313aaad
 [seres-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/37486492be3a2974b73dbb2485a6ea203f1c9732
 [seres-inf-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/a76400dbf6ff3ae2c30484b4a179c98aab417e62
+[seres-inf-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/ad4d4c13527ef92fd3cf0f69b2954947231b267f
 [vt-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/4db1fb6173ab934c18b9d1ccdaefe1632d71e35a
 [vt-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e8bf753d3424c663a98679eb4016c538df819624
