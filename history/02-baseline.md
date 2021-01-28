@@ -17,7 +17,7 @@
 | same           | [seres-inf-v2]     | seresnext50_32x4d     | 0.900     | same        | TTA x7 (flip)                                        |
 | [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d     | 0.899     | **0.89532** | label smoothing                                      |
 | -              | [ensemble-v2]      | seresnext50_32x4d     | **0.903** | -           | [seres-v1], [seres-v2]                               |
-| [vt-v2]        | [vt-inf-v2]        | vit_base_patch16_384  |           | 0.89220     | label smoothing, freeze BN, etc                      |
+| [vt-v2]        | [vt-inf-v2]        | vit_base_patch16_384  | 0.899     | 0.89220     | label smoothing, freeze BN, etc                      |
 
 ## Validation
 
