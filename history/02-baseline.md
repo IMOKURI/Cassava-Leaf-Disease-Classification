@@ -35,6 +35,13 @@
 | -     | [ensemble-v4] | efficientnet_b4_ns, seresnext50_32x4d                       | 0.902     | -   | [efficient-v1], [seres-v1]                      |
 | -     | [ensemble-v5] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.903     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2] |
 
+### Ensemble + TTA
+
+| Train | Inference         | Model                                 | Public LB | CV  | Comment                                        |
+| ---   | ---               | ---                                   | ---       | --- | ---                                            |
+| -     | [ensemble-tta-v1] | efficientnet_b4_ns, seresnext50_32x4d |           | -   | [efficient-v1], [seres-v1], [seres-v2], TTA x9 |
+
+
 
 ## Validation
 
@@ -160,6 +167,7 @@ weighted avg       0.94      0.94      0.94     21397
 [efficient-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/36ce5d1f60d7e42a7d8e60d54f32d5884ebff23c
 [efnet-b3-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f60bb3c9f57326a8cbf0986583c167cc6d8d66f6
 [efnet-b3-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/83189c1f6e6b651f4f3a140cf59b2987905932b9
+[ensemble-tta-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c00f004bca12cd0d7c9b70b2d77cf425bef26490
 [ensemble-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/4a9fe24be7dd35bcd34f35b9c9cceb5ac1ead1fa
 [ensemble-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/db10edd32515b4665353e67447abfc1b3e257e1e
 [ensemble-v4]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/0ca07a6b0ddde0a13b7b1f5ebb7e502d3d8ae87a
