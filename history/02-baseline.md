@@ -28,11 +28,12 @@
 
 ### Ensemble
 
-| Train | Inference     | Model                                 | Public LB | CV  | Comment                                |
-| ---   | ---           | ---                                   | ---       | --- | ---                                    |
-| -     | [ensemble-v2] | seresnext50_32x4d                     | **0.903** | -   | [seres-v1], [seres-v2]                 |
-| -     | [ensemble-v3] | efficientnet_b4_ns, seresnext50_32x4d | **0.903** | -   | [efficient-v1], [seres-v1], [seres-v2] |
-| -     | [ensemble-v4] | efficientnet_b4_ns, seresnext50_32x4d |           | -   | [efficient-v1], [seres-v1]             |
+| Train | Inference     | Model                                                       | Public LB | CV  | Comment                                         |
+| ---   | ---           | ---                                                         | ---       | --- | ---                                             |
+| -     | [ensemble-v2] | seresnext50_32x4d                                           | **0.903** | -   | [seres-v1], [seres-v2]                          |
+| -     | [ensemble-v3] | efficientnet_b4_ns, seresnext50_32x4d                       | **0.903** | -   | [efficient-v1], [seres-v1], [seres-v2]          |
+| -     | [ensemble-v4] | efficientnet_b4_ns, seresnext50_32x4d                       | 0.902     | -   | [efficient-v1], [seres-v1]                      |
+| -     | [ensemble-v5] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 |           | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2] |
 
 
 ## Validation
