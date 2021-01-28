@@ -2,23 +2,37 @@
 
 ## Score
 
-| Train          | Inference          | Model                                 | Public LB | CV          | Comment                                              |
-| ---            | ---                | ---                                   | ---       | ---         | ---                                                  |
-| [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d                       | 0.894     | 0.89069     | -                                                    |
-| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns                    | 0.900     | 0.89103     | CutMix, freeze batch normalization                   |
-| same           | [efficient-inf-v2] | efficientnet_b4_ns                    | 0.898     | same        | TTA x10                                              |
-| same           | [efficient-inf-v5] | efficientnet_b4_ns                    | 0.901     | same        | TTA x7                                               |
-| [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns                    | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
-| [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                    | 0.898     | 0.89137     | MixUp                                                |
-| [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                  | 0.897     | 0.88958     | based on [efficient-v3]                              |
-| [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384                 | 0.895     | 0.89019     | based on [efficient-v1]                              |
-| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns                 | 0.895     | 0.89255     | based on [deit-v1], batch update, increase min lr    |
-| [seres-v1]     | [seres-inf-v1]     | seresnext50_32x4d                     | 0.900     | 0.89422     | based on [efnet-b3-v1], MixUp                        |
-| same           | [seres-inf-v2]     | seresnext50_32x4d                     | 0.900     | same        | TTA x7 (flip)                                        |
-| [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d                     | 0.899     | **0.89532** | label smoothing                                      |
-| -              | [ensemble-v2]      | seresnext50_32x4d                     | **0.903** | -           | [seres-v1], [seres-v2]                               |
-| -              | [ensemble-v3]      | efficientnet_b4_ns, seresnext50_32x4d | **0.903** | -           | [efficient-v1], [seres-v1], [seres-v2]               |
-| [vt-v2]        | [vt-inf-v2]        | vit_base_patch16_384                  | 0.899     | 0.89220     | label smoothing, freeze BN, etc                      |
+### Single Model
+
+| Train          | Inference          | Model                 | Public LB | CV          | Comment                                              |
+| ---            | ---                | ---                   | ---       | ---         | ---                                                  |
+| [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d       | 0.894     | 0.89069     | -                                                    |
+| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns    | **0.900** | 0.89103     | CutMix, freeze batch normalization                   |
+| [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns    | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
+| [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns    | 0.898     | 0.89137     | MixUp                                                |
+| [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384  | 0.897     | 0.88958     | based on [efficient-v3]                              |
+| [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384 | 0.895     | 0.89019     | based on [efficient-v1]                              |
+| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns | 0.895     | 0.89255     | based on [deit-v1], batch update, increase min lr    |
+| [seres-v1]     | [seres-inf-v1]     | seresnext50_32x4d     | **0.900** | 0.89422     | based on [efnet-b3-v1], MixUp                        |
+| [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d     | 0.899     | **0.89532** | label smoothing                                      |
+| [vt-v2]        | [vt-inf-v2]        | vit_base_patch16_384  | 0.899     | 0.89220     | label smoothing, freeze BN, etc                      |
+
+### TTA
+
+| Train          | Inference          | Model              | Public LB | CV  | Comment       |
+| ---            | ---                | ---                | ---       | --- | ---           |
+| [efficient-v1] | [efficient-inf-v2] | efficientnet_b4_ns | 0.898     | -   | TTA x10       |
+| [efficient-v1] | [efficient-inf-v5] | efficientnet_b4_ns | 0.901     | -   | TTA x7        |
+| [seres-v1]     | [seres-inf-v2]     | seresnext50_32x4d  | 0.900     | -   | TTA x7 (flip) |
+
+
+### Ensemble
+
+| Train | Inference     | Model                                 | Public LB | CV  | Comment                                |
+| ---   | ---           | ---                                   | ---       | --- | ---                                    |
+| -     | [ensemble-v2] | seresnext50_32x4d                     | **0.903** | -   | [seres-v1], [seres-v2]                 |
+| -     | [ensemble-v3] | efficientnet_b4_ns, seresnext50_32x4d | **0.903** | -   | [efficient-v1], [seres-v1], [seres-v2] |
+
 
 ## Validation
 
@@ -145,6 +159,7 @@ weighted avg       0.94      0.94      0.94     21397
 [efnet-b3-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f60bb3c9f57326a8cbf0986583c167cc6d8d66f6
 [efnet-b3-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/83189c1f6e6b651f4f3a140cf59b2987905932b9
 [ensemble-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/4a9fe24be7dd35bcd34f35b9c9cceb5ac1ead1fa
+[ensemble-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/db10edd32515b4665353e67447abfc1b3e257e1e
 [resnext-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8fa6fe163d8e90cad183bc44d52e6e430510e5a8
 [resnext-v1]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/df110ca08bcbd3a69e45ffda3f33154bfde7fc12
 [seres-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/37486492be3a2974b73dbb2485a6ea203f1c9732
