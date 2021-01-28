@@ -2,22 +2,23 @@
 
 ## Score
 
-| Train          | Inference          | Model                 | Public LB | CV          | Comment                                              |
-| ---            | ---                | ---                   | ---       | ---         | ---                                                  |
-| [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d       | 0.894     | 0.89069     | -                                                    |
-| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns    | 0.900     | 0.89103     | CutMix, freeze batch normalization                   |
-| same           | [efficient-inf-v2] | efficientnet_b4_ns    | 0.898     | same        | TTA x10                                              |
-| same           | [efficient-inf-v5] | efficientnet_b4_ns    | 0.901     | same        | TTA x7                                               |
-| [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns    | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
-| [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns    | 0.898     | 0.89137     | MixUp                                                |
-| [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384  | 0.897     | 0.88958     | based on [efficient-v3]                              |
-| [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384 | 0.895     | 0.89019     | based on [efficient-v1]                              |
-| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns | 0.895     | 0.89255     | based on [deit-v1], batch update, increase min lr    |
-| [seres-v1]     | [seres-inf-v1]     | seresnext50_32x4d     | 0.900     | 0.89422     | based on [efnet-b3-v1], MixUp                        |
-| same           | [seres-inf-v2]     | seresnext50_32x4d     | 0.900     | same        | TTA x7 (flip)                                        |
-| [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d     | 0.899     | **0.89532** | label smoothing                                      |
-| -              | [ensemble-v2]      | seresnext50_32x4d     | **0.903** | -           | [seres-v1], [seres-v2]                               |
-| [vt-v2]        | [vt-inf-v2]        | vit_base_patch16_384  | 0.899     | 0.89220     | label smoothing, freeze BN, etc                      |
+| Train          | Inference          | Model                                 | Public LB | CV          | Comment                                              |
+| ---            | ---                | ---                                   | ---       | ---         | ---                                                  |
+| [resnext-v1]   | [resnext-inf-v1]   | resnext50_32x4d                       | 0.894     | 0.89069     | -                                                    |
+| [efficient-v1] | [efficient-inf-v1] | efficientnet_b4_ns                    | 0.900     | 0.89103     | CutMix, freeze batch normalization                   |
+| same           | [efficient-inf-v2] | efficientnet_b4_ns                    | 0.898     | same        | TTA x10                                              |
+| same           | [efficient-inf-v5] | efficientnet_b4_ns                    | 0.901     | same        | TTA x7                                               |
+| [efficient-v2] | [efficient-inf-v3] | efficientnet_b4_ns                    | 0.897     | 0.88814     | gradient accumulation, CosineAnnealingWarmupRestarts |
+| [efficient-v3] | [efficient-inf-v4] | efficientnet_b4_ns                    | 0.898     | 0.89137     | MixUp                                                |
+| [vt-v1]        | [vt-inf-v1]        | vit_base_patch16_384                  | 0.897     | 0.88958     | based on [efficient-v3]                              |
+| [deit-v1]      | [deit-inf-v1]      | deit_base_patch16_384                 | 0.895     | 0.89019     | based on [efficient-v1]                              |
+| [efnet-b3-v1]  | [efnet-b3-inf-v1]  | tf_efficientnet_b3_ns                 | 0.895     | 0.89255     | based on [deit-v1], batch update, increase min lr    |
+| [seres-v1]     | [seres-inf-v1]     | seresnext50_32x4d                     | 0.900     | 0.89422     | based on [efnet-b3-v1], MixUp                        |
+| same           | [seres-inf-v2]     | seresnext50_32x4d                     | 0.900     | same        | TTA x7 (flip)                                        |
+| [seres-v2]     | [seres-inf-v3]     | seresnext50_32x4d                     | 0.899     | **0.89532** | label smoothing                                      |
+| -              | [ensemble-v2]      | seresnext50_32x4d                     | **0.903** | -           | [seres-v1], [seres-v2]                               |
+| -              | [ensemble-v3]      | efficientnet_b4_ns, seresnext50_32x4d | **0.903** | -           | [efficient-v1], [seres-v1], [seres-v2]               |
+| [vt-v2]        | [vt-inf-v2]        | vit_base_patch16_384                  | 0.899     | 0.89220     | label smoothing, freeze BN, etc                      |
 
 ## Validation
 
