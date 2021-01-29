@@ -151,7 +151,24 @@ weighted avg       0.94      0.94      0.94     21397
     accuracy                           0.94     21397
    macro avg       0.91      0.89      0.90     21397
 weighted avg       0.94      0.94      0.94     21397
+```
 
+### [ensemble-v3]
+
+![](../images/ensemble-v3.png)
+
+```
+              precision    recall  f1-score   support
+
+           0       0.82      0.81      0.82      1087
+           1       0.93      0.88      0.91      2189
+           2       0.90      0.88      0.89      2386
+           3       0.97      0.99      0.98     13158
+           4       0.86      0.85      0.86      2577
+
+    accuracy                           0.94     21397
+   macro avg       0.90      0.88      0.89     21397
+weighted avg       0.94      0.94      0.94     21397
 ```
 
 
