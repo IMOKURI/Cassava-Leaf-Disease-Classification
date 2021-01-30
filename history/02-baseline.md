@@ -19,9 +19,9 @@
 
 ### Distillation
 
-| Train           | Inference           | Model              | Public LB | CV      | Comment             |
-| ---             | ---                 | ---                | ---       | ---     | ---                 |
-| [efnet-dist-v1] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.898     | 0.94961 | label [ensemble-v3] |
+| Train           | Inference           | Model              | Public LB | CV      | Comment                              |
+| ---             | ---                 | ---                | ---       | ---     | ---                                  |
+| [efnet-dist-v1] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.898     | 0.94961 | label [ensemble-v3], soft label only |
 
 
 ### TTA

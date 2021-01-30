@@ -43,6 +43,7 @@
     - [x] also vision transformer.
 - [x] Gradient accumulation for increasing batch size.
 - [x] [Distillation](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/214959)
+    - [x] [Distillation Loss](https://ramesharvind.github.io/posts/deep-learning/knowledge-distillation/)
 
 ### Inference
 
