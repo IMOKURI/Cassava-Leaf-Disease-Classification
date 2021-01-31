@@ -22,8 +22,8 @@
 | Train           | Inference           | Model              | Public LB | CV      | Comment                              |
 | ---             | ---                 | ---                | ---       | ---     | ---                                  |
 | [efnet-dist-v1] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.898     | 0.94961 | label [ensemble-v3], soft label only |
-| [efnet-dist-v2] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.894     | 0.94848 | label [ensemble-v3], soft label 0.3 |
-| [efnet-dist-v3] | [efnet-dist-inf-v1] | efficientnet_b4_ns |           | 0.94980 | label [ensemble-v3], soft label 0.9 |
+| [efnet-dist-v2] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.894     | 0.94848 | label [ensemble-v3], soft label 0.3  |
+| [efnet-dist-v3] | [efnet-dist-inf-v1] | efficientnet_b4_ns |           | 0.94980 | label [ensemble-v3], soft label 0.9  |
 
 
 ### TTA
