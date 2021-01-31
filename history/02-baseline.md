@@ -22,6 +22,7 @@
 | Train           | Inference           | Model              | Public LB | CV      | Comment                              |
 | ---             | ---                 | ---                | ---       | ---     | ---                                  |
 | [efnet-dist-v1] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.898     | 0.94961 | label [ensemble-v3], soft label only |
+| [efnet-dist-v2] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.894     | 0.94848 | label [ensemble-v3], soft label 0.3 |
 
 
 ### TTA
@@ -195,6 +196,7 @@ weighted avg       0.94      0.94      0.94     21397
 [efnet-b3-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/83189c1f6e6b651f4f3a140cf59b2987905932b9
 [efnet-dist-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/12bac77bcc2a51970706c5fd2a113084d5c59cbc
 [efnet-dist-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/836870971940d641cbfc724a4123412b0c24a007
+[efnet-dist-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/87e7febb2b5d65344a4fc955e51f415fb753debf
 [ensemble-tta-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c00f004bca12cd0d7c9b70b2d77cf425bef26490
 [ensemble-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/4a9fe24be7dd35bcd34f35b9c9cceb5ac1ead1fa
 [ensemble-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/db10edd32515b4665353e67447abfc1b3e257e1e
