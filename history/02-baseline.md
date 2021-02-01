@@ -49,7 +49,8 @@
 | Train | Inference         | Model                                                       | Public LB | CV  | Comment                                                 |
 | ---   | ---               | ---                                                         | ---       | --- | ---                                                     |
 | -     | [ensemble-tta-v1] | efficientnet_b4_ns, seresnext50_32x4d                       | 0.904     | -   | [efficient-v1], [seres-v1], [seres-v2], TTA x9          |
-| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.906** | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x7 |
+| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x7 |
+| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.906** | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x6 |
 
 
 
