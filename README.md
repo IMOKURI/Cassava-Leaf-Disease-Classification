@@ -30,7 +30,7 @@
 
 - [x] SE Resnext50_32x4d
 - [x] EfficientNet B4 with Noisy Student
-- [ ] vision transformer
+- [x] vision transformer
 
 ### Loss
 
