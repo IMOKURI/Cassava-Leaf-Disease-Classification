@@ -58,11 +58,11 @@
 | -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x9             |
 | -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.904     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x8             |
 | -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.907** | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x7             |
-| -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 |           | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x6             |
-| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 |           | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x10            |
+| -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x6             |
+| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | Time out  | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x10            |
 | -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x9             |
-| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 |           | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x8             |
-| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 |           | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x7             |
+| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x8             |
+| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x7             |
 
 
 
