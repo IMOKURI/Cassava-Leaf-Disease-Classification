@@ -245,3 +245,4 @@ weighted avg       0.94      0.94      0.94     21397
 [vt-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e8bf753d3424c663a98679eb4016c538df819624
 [vt-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9b7093ed7501254f7705edd31f96467f2be00d8b
 [w-ensemble-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/d5c644d5bb53a6cbf63f1d437439fc05ba21e57e
+[w-ensemble-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/c67b50005dbaa67cf4f7f3207773a85040ff197e
