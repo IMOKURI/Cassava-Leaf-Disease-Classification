@@ -19,12 +19,13 @@
 
 ### Distillation
 
-| Train           | Inference           | Model              | Public LB | CV      | Comment                                        |
-| ---             | ---                 | ---                | ---       | ---     | ---                                            |
-| [efnet-dist-v1] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.898     | 0.94961 | label [ensemble-v3], soft label only           |
-| [efnet-dist-v2] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.894     | 0.94848 | label [ensemble-v3], soft label 0.3            |
-| [efnet-dist-v3] | [efnet-dist-inf-v1] | efficientnet_b4_ns | 0.897     | 0.94980 | label [ensemble-v3], soft label 0.9            |
-| [efnet-dist-v4] | [efnet-dist-inf-v2] | efficientnet_b4_ns |           | 0.94510 | label [ensemble-tta-v2] TTA x7, soft label 0.9 |
+| Train           | Inference           | Model                 | Public LB | CV      | Comment                                        |
+| ---             | ---                 | ---                   | ---       | ---     | ---                                            |
+| [efnet-dist-v1] | [efnet-dist-inf-v1] | efficientnet_b4_ns    | 0.898     | 0.94961 | label [ensemble-v3], soft label only           |
+| [efnet-dist-v2] | [efnet-dist-inf-v1] | efficientnet_b4_ns    | 0.894     | 0.94848 | label [ensemble-v3], soft label 0.3            |
+| [efnet-dist-v3] | [efnet-dist-inf-v1] | efficientnet_b4_ns    | 0.897     | 0.94980 | label [ensemble-v3], soft label 0.9            |
+| [efnet-dist-v4] | [efnet-dist-inf-v2] | efficientnet_b4_ns    |           | 0.94510 | label [ensemble-tta-v2] TTA x7, soft label 0.9 |
+| [deit-dist-v1]  |                     | deit_base_patch16_384 |           |         | label [ensemble-tta-v2] TTA x7, soft label 0.9 |
 
 
 ### TTA
@@ -198,6 +199,7 @@ weighted avg       0.94      0.94      0.94     21397
 ```
 
 
+[deit-dist-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/6dcdd4dcfc76c44097c1c8bcb357dde45da6211e
 [deit-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/22ca4772148d269eac8494df463c5e9eeb03301f
 [deit-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9181ff1cb82f62d6cafffc331b49920194544d32
 [efficient-inf-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/bc1bc571b52a0d3b5ec6e739fc5bc5e598c26c62
