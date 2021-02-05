@@ -48,25 +48,29 @@
 
 ### Ensemble + TTA
 
-| Train | Inference         | Model                                                       | Public LB | CV  | Comment                                                 |
-| ---   | ---               | ---                                                         | ---       | --- | ---                                                     |
-| -     | [ensemble-tta-v1] | efficientnet_b4_ns, seresnext50_32x4d                       | 0.904     | -   | [efficient-v1], [seres-v1], [seres-v2], TTA x9          |
-| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | Time out  | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x8 |
-| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x7 |
-| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x6 |
-| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.905     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x5 |
-| -     | [ensemble-tta-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.905     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x4 |
-| -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | Time out  | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x10            |
-| -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x9             |
-| -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.904     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x8             |
-| -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.907** | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x7             |
-| -     | [ensemble-tta-v3] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x6             |
-| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | Time out  | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x10            |
-| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x9             |
-| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x8             |
-| -     | [ensemble-tta-v4] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x7             |
+| Train | Inference            | Model                                                       | Public LB | CV  | Comment                                                 |
+| ---   | ---                  | ---                                                         | ---       | --- | ---                                                     |
+| -     | [ensemble-tta-v1]    | efficientnet_b4_ns, seresnext50_32x4d                       | 0.904     | -   | [efficient-v1], [seres-v1], [seres-v2], TTA x9          |
+| -     | [ensemble-tta-v2]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | Time out  | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x8 |
+| -     | [ensemble-tta-v2]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x7 |
+| -     | [ensemble-tta-v2]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x6 |
+| -     | [ensemble-tta-v2]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.905     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x5 |
+| -     | [ensemble-tta-v2]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.905     | -   | [efficient-v1], [seres-v1], [seres-v2], [vt-v2], TTA x4 |
+| -     | [ensemble-tta-v3]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | Time out  | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x10            |
+| -     | [ensemble-tta-v3]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x9             |
+| -     | [ensemble-tta-v3]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.904     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x8             |
+| -     | [ensemble-tta-v3] *1 | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.907** | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x7             |
+| -     | [ensemble-tta-v3]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v1], [vt-v2], TTA x6             |
+| -     | [ensemble-tta-v4]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | Time out  | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x10            |
+| -     | [ensemble-tta-v4]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x9             |
+| -     | [ensemble-tta-v4]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x8             |
+| -     | [ensemble-tta-v4]    | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | [efficient-v1], [seres-v2], [vt-v2], TTA x7             |
 
+### Weighted ensemble + TTA
 
+| Train | Inference       | Model                                                       | Public LB | CV  | Comment                     |
+| ---   | ---             | ---                                                         | ---       | --- | ---                         |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 |           | -   | based on *1, weight 1:1:1.1 |
 
 ## Validation
 
@@ -237,3 +241,4 @@ weighted avg       0.94      0.94      0.94     21397
 [vt-inf-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/3ea9b339c569e3b0596cd72a236faee4b5026279
 [vt-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e8bf753d3424c663a98679eb4016c538df819624
 [vt-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9b7093ed7501254f7705edd31f96467f2be00d8b
+[w-ensemble-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/d5c644d5bb53a6cbf63f1d437439fc05ba21e57e
