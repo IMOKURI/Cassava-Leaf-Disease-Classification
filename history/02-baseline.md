@@ -70,7 +70,7 @@
 
 | Train | Inference       | Model                                                       | Public LB | CV  | Comment                     |
 | ---   | ---             | ---                                                         | ---       | --- | ---                         |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 |           | -   | based on *1, weight 1:1:1.1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1:1:1.1 |
 
 ## Validation
 
