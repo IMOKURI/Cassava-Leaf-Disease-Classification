@@ -77,6 +77,7 @@
 | -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1 :1.1 :1 |
 | -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1 :0.9 :1 |
 | -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.907** | -   | based on *1, weight 1 :0.8 :1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1 :0.7 :1 |
 | -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :1.2 :1 |
 | -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :1.1 :1 |
 | -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :0.9 :1 |
@@ -87,11 +88,11 @@
 
 - [w-ensemble-v1]
     - efficientnet_b4_ns: <1
-    - seresnext50_32x4d: <<1
+    - seresnext50_32x4d: 0.7<<1 -> 0.8
     - vit_base_patch16_384: >1
 - [w-ensemble-v2]
     - efficientnet_b4_ns: =1
-    - seresnext50_32x4d: 1.2> >1 -> 1.1
+    - seresnext50_32x4d: 1.2>>1 -> 1.1
     - vit_base_patch16_384: =1
 
 ## Validation
