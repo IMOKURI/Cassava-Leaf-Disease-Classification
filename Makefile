@@ -2,6 +2,7 @@
 
 KERNEL_INFERENCE := cassava-inference
 KERNEL_TRAINING := cassava-training
+KERNEL_VALIDATION := cassava-validation
 
 define pull
 	rm -f kernel-metadata.json
@@ -26,6 +27,12 @@ pull-train: ## Pull kernel $(KERNEL_TRAINING)
 
 push-train: ## Push kernel $(KERNEL_TRAINING)
 	$(call push,$(KERNEL_TRAINING))
+
+pull-val: ## Pull kernel $(KERNEL_VALIDATION)
+	$(call pull,$(KERNEL_VALIDATION))
+
+push-val: ## Push kernel $(KERNEL_VALIDATION)
+	$(call push,$(KERNEL_VALIDATION))
 
 help: ## Show this help
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / \

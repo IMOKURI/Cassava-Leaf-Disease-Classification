@@ -1,20 +1,18 @@
 {
-  "id": "imokuri/cassava-training",
-  "id_no": 14263806,
-  "title": "Cassava - Training",
-  "code_file": "cassava-training.ipynb",
+  "id": "imokuri/cassava-validation",
+  "id_no": "",
+  "title": "Cassava - Validation",
+  "code_file": "cassava-validation.ipynb",
   "language": "python",
   "kernel_type": "notebook",
   "is_private": true,
   "enable_gpu": true,
-  "enable_internet": true,
-  "keywords": [
-    "gpu"
-  ],
+  "enable_internet": false,
+  "keywords": [],
   "dataset_sources": [
-    "imokuri/bitemperedlogloss",
-    "imokuri/pytorchcosineannealingwithwarmup",
+    "imokuri/cassava-model",
     "khyeh0719/image-fmix",
+    "kozistr/fair-deit",
     "tahsin/cassava-leaf-disease-merged",
     "yasufuminakama/pytorch-image-models"
   ],
