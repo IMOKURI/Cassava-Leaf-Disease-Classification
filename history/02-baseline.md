@@ -68,23 +68,23 @@
 
 ### Weighted ensemble + TTA
 
-| Train | Inference       | Model                                                       | Public LB | CV  | Comment                       |
-| ---   | ---             | ---                                                         | ---       | --- | ---                           |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1 :1 :1.1 |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -   | based on *1, weight 1 :1 :0.9 |
-| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :1 :1.1 |
-| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :1 :0.9 |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1 :1.1 :1 |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1 :0.9 :1 |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.907** | -   | based on *1, weight 1 :0.8 :1 |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1 :0.7 :1 |
-| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :1.2 :1 |
-| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :1.1 :1 |
-| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1 :0.9 :1 |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 1.1 :1 :1 |
-| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *1, weight 0.9 :1 :1 |
-| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 1.1 :1 :1 |
-| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -   | based on *2, weight 0.9 :1 :1 |
+| Train | Inference       | Model                                                       | Public LB | CV                 | Comment                       |
+| ---   | ---             | ---                                                         | ---       | ---                | ---                           |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *1, weight 1 :1 :1.1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.906     | -                  | based on *1, weight 1 :1 :0.9 |
+| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *2, weight 1 :1 :1.1 |
+| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *2, weight 1 :1 :0.9 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *1, weight 1 :1.1 :1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *1, weight 1 :0.9 :1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | **0.907** | 0.9328321372973384 | based on *1, weight 1 :0.8 :1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *1, weight 1 :0.7 :1 |
+| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *2, weight 1 :1.2 :1 |
+| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *2, weight 1 :1.1 :1 |
+| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *2, weight 1 :0.9 :1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *1, weight 1.1 :1 :1 |
+| -     | [w-ensemble-v1] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *1, weight 0.9 :1 :1 |
+| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *2, weight 1.1 :1 :1 |
+| -     | [w-ensemble-v2] | efficientnet_b4_ns, seresnext50_32x4d, vit_base_patch16_384 | 0.907     | -                  | based on *2, weight 0.9 :1 :1 |
 
 - [w-ensemble-v1]
     - efficientnet_b4_ns: <1
