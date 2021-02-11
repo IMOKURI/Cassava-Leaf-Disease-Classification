@@ -97,132 +97,25 @@
 
 ## Validation
 
-### [efficient-v1]
+### efficient-v1, seres-v1, vt-v2 + TTA x7 + weight 1:0.8:1
 
-![](../images/tf_efficientnet_b4_ns.png)
+- CV: 0.9328321372973384
+- LB: 0.907
 
-```
-              precision    recall  f1-score   support
-
-           0       0.74      0.75      0.74      1087
-           1       0.88      0.84      0.86      2189
-           2       0.87      0.85      0.86      2386
-           3       0.96      0.98      0.97     13158
-           4       0.80      0.79      0.79      2577
-
-    accuracy                           0.91     21397
-   macro avg       0.85      0.84      0.85     21397
-weighted avg       0.91      0.91      0.91     21397
-```
-
-### [efnet-b3-v1]
-
-![](../images/tf_efficientnet_b3_ns.png)
+![](../images/abfdf4d482c16aa3fc88999c8251cc8e29e9365e.png)
 
 ```
               precision    recall  f1-score   support
 
-           0       0.83      0.80      0.82      1087
-           1       0.92      0.88      0.90      2189
-           2       0.90      0.89      0.90      2386
-           3       0.97      0.99      0.98     13158
-           4       0.86      0.85      0.86      2577
+           0       0.82      0.79      0.81      1492
+           1       0.93      0.89      0.91      3476
+           2       0.91      0.87      0.89      3017
+           3       0.96      0.98      0.97     15462
+           4       0.86      0.85      0.85      2890
 
-    accuracy                           0.94     21397
-   macro avg       0.90      0.88      0.89     21397
-weighted avg       0.94      0.94      0.94     21397
-```
-
-### [vt-v1]
-
-![](../images/vit_base_patch16_384.png)
-
-```
-              precision    recall  f1-score   support
-
-           0       0.80      0.80      0.80      1087
-           1       0.90      0.88      0.89      2189
-           2       0.90      0.85      0.87      2386
-           3       0.97      0.98      0.97     13158
-           4       0.85      0.82      0.84      2577
-
-    accuracy                           0.93     21397
-   macro avg       0.88      0.87      0.88     21397
-weighted avg       0.93      0.93      0.93     21397
-```
-
-### [seres-v1]
-
-![](../images/seresnext50_32x4d.png)
-
-```
-              precision    recall  f1-score   support
-
-           0       0.84      0.82      0.83      1087
-           1       0.93      0.89      0.91      2189
-           2       0.91      0.89      0.90      2386
-           3       0.97      0.99      0.98     13158
-           4       0.87      0.86      0.87      2577
-
-    accuracy                           0.94     21397
-   macro avg       0.91      0.89      0.90     21397
-weighted avg       0.94      0.94      0.94     21397
-```
-
-### [seres-v2]
-
-![](../images/seresnext50_32x4d_v2.png)
-
-```
-              precision    recall  f1-score   support
-
-           0       0.84      0.84      0.84      1087
-           1       0.93      0.89      0.91      2189
-           2       0.91      0.89      0.90      2386
-           3       0.97      0.99      0.98     13158
-           4       0.89      0.86      0.87      2577
-
-    accuracy                           0.94     21397
-   macro avg       0.91      0.89      0.90     21397
-weighted avg       0.94      0.94      0.94     21397
-```
-
-### [ensemble-v2]
-
-![](../images/ensemble.png)
-
-```
-              precision    recall  f1-score   support
-
-           0       0.84      0.83      0.84      1087
-           1       0.93      0.89      0.91      2189
-           2       0.91      0.89      0.90      2386
-           3       0.97      0.99      0.98     13158
-           4       0.88      0.86      0.87      2577
-
-    accuracy                           0.94     21397
-   macro avg       0.91      0.89      0.90     21397
-weighted avg       0.94      0.94      0.94     21397
-```
-
-### [ensemble-v3]
-
-with 2019 datasets
-
-![](../images/ensemble-v3.png)
-
-```
-              precision    recall  f1-score   support
-
-           0       0.82      0.81      0.82      1087
-           1       0.93      0.88      0.91      2189
-           2       0.90      0.88      0.89      2386
-           3       0.97      0.99      0.98     13158
-           4       0.86      0.85      0.86      2577
-
-    accuracy                           0.94     21397
-   macro avg       0.90      0.88      0.89     21397
-weighted avg       0.94      0.94      0.94     21397
+    accuracy                           0.93     26337
+   macro avg       0.90      0.88      0.89     26337
+weighted avg       0.93      0.93      0.93     26337
 ```
 
 
