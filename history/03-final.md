@@ -9,15 +9,15 @@
     - [seresnext50_32x4d]
     - [vit_base_patch16_384]
 
-| Inference  | Ver. | TTA | BS  | Seed | Public LB | CV  | Comment |
-| ---        | ---  | --- | --- | ---  | ---       | --- | ---     |
-| [final-v1] | 108  | 1   | 32  | 22   | 0.905     | -   | -       |
-| [final-v2] | 109  | 1   | 64  | 22   | 0.905     | -   | -       |
-| [final-v3] | 110  | 7   | 32  | 22   |           | -   | -       |
-| [final-v4] | 111  | 7   | 64  | 22   |           | -   | -       |
-| [final-v5] | 112  | 9   | 32  | 22   |           | -   | -       |
-| [final-v6] | 113  | 9   | 64  | 22   |           | -   | -       |
-| [final-v7] | 114  | 10  | 64  | 22   |           | -   | -       |
+| Inference  | Ver. | TTA | BS  | Seed | Public LB | CV                 | Comment |
+| ---        | ---  | --- | --- | ---  | ---       | ---                | ---     |
+| [final-v1] | 108  | 1   | 32  | 22   | 0.905     | 0.9429319968105707 | -       |
+| [final-v2] | 109  | 1   | 64  | 22   | 0.905     | 0.9429319968105707 | -       |
+| [final-v3] | 110  | 7   | 32  | 22   |           | -                  | -       |
+| [final-v4] | 111  | 7   | 64  | 22   |           | -                  | -       |
+| [final-v5] | 112  | 9   | 32  | 22   |           | -                  | -       |
+| [final-v6] | 113  | 9   | 64  | 22   |           | -                  | -       |
+| [final-v7] | 114  | 10  | 64  | 22   |           | -                  | -       |
 
 [final-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/35741622e876fe21950b8bf19358082a9c11692b
 [final-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/2660543d37c5f6c994c43e6f75025553aa276892
