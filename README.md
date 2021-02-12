@@ -4,6 +4,7 @@
 
 - [01-starter](history/01-starter.md)
 - [02-baseline](history/02-baseline.md)
+- [03-final](history/03-final.md)
 
 ## Memo
 

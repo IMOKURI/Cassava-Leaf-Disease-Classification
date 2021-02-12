@@ -1,0 +1,19 @@
+# Cassava-Leaf-Disease-Classification
+
+## Score
+
+### Ensemble
+
+- Model
+    - [efficientnet_b4_ns]
+    - [seresnext50_32x4d]
+    - [vit_base_patch16_384]
+
+| Inference     | TTA | BS  | Seed | Public LB | CV  | Comment |
+| ---           | --- | --- | ---  | ---       | --- | ---     |
+| [ensemble-v1] | 1   | 32  | 22   | 0.905     | -   | -       |
+
+[ensemble-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/35741622e876fe21950b8bf19358082a9c11692b
+[efficientnet_b4_ns]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/f639150116370039666b7bab452abd85932f4d24
+[seresnext50_32x4d]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/fb7397ca97d624eb4db467c3d67a4c492313aaad
+[vit_base_patch16_384]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9b7093ed7501254f7705edd31f96467f2be00d8b
