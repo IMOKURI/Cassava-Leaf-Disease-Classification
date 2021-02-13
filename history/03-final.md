@@ -9,35 +9,37 @@
     - [seresnext50_32x4d_v2]
     - [vit_base_patch16_384]
 
-| Inference   | Validation | Ver. | TTA | BS  | Seed | Public LB | CV                 | Comment    |
-| ---         | ---        | ---  | --- | --- | ---  | ---       | ---                | ---        |
-| [final-v1]  | [val-v1]   | 108  | 1   | 32  | 22   | 0.905     | 0.9429319968105707 | -          |
-| [final-v2]  | [val-v2]   | 109  | 1   | 64  | 22   | 0.905     | 0.9429319968105707 | -          |
-| -           | [val-v3]   |      | 3   | 32  | 22   | -         | 0.9361734442039716 | -          |
-| -           | [val-v4]   |      | 3   | 64  | 22   | -         | 0.9362114136006379 | -          |
-| [final-v3]  | -          | 110  | 7   | 32  | 22   | 0.907     | -                  | -          |
-| [final-v4]  | -          | 111  | 7   | 64  | 22   | 0.906     | -                  | -          |
-| [final-v5]  | -          | 112  | 9   | 32  | 22   | -         | -                  | -          |
-| [final-v6]  | -          | 113  | 9   | 64  | 22   | -         | -                  | -          |
-| [final-v7]  | -          | 114  | 10  | 64  | 22   | -         | -                  | -          |
-| [final-v8]  | -          | 116  | 7   | 32  | 22   | **0.907** | -                  | TTA weight |
-| [final-v12] | -          | 120  | 8   | 32  | 22   | 0.907     | -                  | TTA weight |
-| [final-v9]  | -          | 117  | 9   | 32  | 22   | 0.907     | -                  | TTA weight |
-| [final-v13] | -          | 121  | 7   | 32  | 4129 |           | -                  | TTA weight |
-| [final-v14] | -          | 122  | 8   | 32  | 4129 | -         | -                  | TTA weight |
-| [final-v15] | -          | 123  | 9   | 32  | 4129 |           | -                  | TTA weight |
-| [final-v16] | -          | 124  | 10  | 64  | 4129 |           | -                  | TTA weight |
+| Inference   | Validation | Ver. | TTA | BS  | Seed | Public LB | CV                 | Comment           |
+| ---         | ---        | ---  | --- | --- | ---  | ---       | ---                | ---               |
+| [final-v1]  | [val-v1]   | 108  | 1   | 32  | 22   | 0.905     | 0.9429319968105707 | -                 |
+| [final-v2]  | [val-v2]   | 109  | 1   | 64  | 22   | 0.905     | 0.9429319968105707 | -                 |
+| -           | [val-v3]   |      | 3   | 32  | 22   | -         | 0.9361734442039716 | -                 |
+| -           | [val-v4]   |      | 3   | 64  | 22   | -         | 0.9362114136006379 | -                 |
+| [final-v3]  | -          | 110  | 7   | 32  | 22   | 0.907     | -                  | -                 |
+| [final-v4]  | -          | 111  | 7   | 64  | 22   | 0.906     | -                  | -                 |
+| [final-v5]  | -          | 112  | 9   | 32  | 22   | -         | -                  | -                 |
+| [final-v6]  | -          | 113  | 9   | 64  | 22   | -         | -                  | -                 |
+| [final-v7]  | -          | 114  | 10  | 64  | 22   | -         | -                  | -                 |
+| [final-v8]  | -          | 116  | 7   | 32  | 22   | **0.907** | -                  | TTA weight (even) |
+| [final-v12] | -          | 120  | 8   | 32  | 22   | 0.907     | -                  | TTA weight (even) |
+| [final-v9]  | -          | 117  | 9   | 32  | 22   | 0.907     | -                  | TTA weight (even) |
+| [final-v18] | -          | 126  | 9   | 32  | 22   |           | -                  | TTA weight (12-8) |
+| [final-v17] | -          | 125  | 9   | 64  | 22   |           | -                  | TTA weight (12-8) |
+| [final-v13] | -          | 121  | 7   | 32  | 4129 |           | -                  | TTA weight (even) |
+| [final-v14] | -          | 122  | 8   | 32  | 4129 | -         | -                  | TTA weight (even) |
+| [final-v15] | -          | 123  | 9   | 32  | 4129 |           | -                  | TTA weight (even) |
+| [final-v16] | -          | 124  | 10  | 64  | 4129 |           | -                  | TTA weight (even) |
 
 - Model
     - [efficientnet_b4_ns]
     - [seresnext50_32x4d_v1]
     - [vit_base_patch16_384]
 
-| Inference   | Validation | Ver.  | TTA | BS  | Seed | Public LB | CV                 | Comment    |
-| ---         | ---        | ---   | --- | --- | ---  | ---       | ---                | ---        |
-| -           |            | val.4 | 1   | 32  | 22   | -         | 0.9424763640505752 | -          |
-| [final-v10] | -          | 118   | 7   | 32  | 22   | 0.907     | -                  | TTA weight |
-| [final-v11] | -          | 119   | 9   | 32  | 22   | 0.906     | -                  | TTA weight |
+| Inference   | Validation | Ver.  | TTA | BS  | Seed | Public LB | CV                 | Comment           |
+| ---         | ---        | ---   | --- | --- | ---  | ---       | ---                | ---               |
+| -           |            | val.4 | 1   | 32  | 22   | -         | 0.9424763640505752 | -                 |
+| [final-v10] | -          | 118   | 7   | 32  | 22   | 0.907     | -                  | TTA weight (even) |
+| [final-v11] | -          | 119   | 9   | 32  | 22   | 0.906     | -                  | TTA weight (even) |
 
 [final-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/35741622e876fe21950b8bf19358082a9c11692b
 [final-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/2660543d37c5f6c994c43e6f75025553aa276892
@@ -55,6 +57,7 @@
 [final-v14]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/3d17e495aa75a203d9b679271e32b1764ee7338a
 [final-v15]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/14105f2a2c2f6573d4c2d1b989a2eba4b821e2d4
 [final-v16]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/00bd6f6a85deec75f9dd6b01446a2422efdf87a6
+[final-v17]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/cf9d2c0a608b7ba1d054ac28d16342151eb9a309
 [val-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f7143beaf5c25829e686f94162cdfa7d0d88d7b1
 [val-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e4e5a946cdce5a90451825fa0578ec5922f0cc93
 [efficientnet_b4_ns]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/f639150116370039666b7bab452abd85932f4d24
