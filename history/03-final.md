@@ -13,16 +13,16 @@
 | ---         | ---        | ---  | --- | --- | ---  | ---       | ---                | ---        |
 | [final-v1]  | [val-v1]   | 108  | 1   | 32  | 22   | 0.905     | 0.9429319968105707 | -          |
 | [final-v2]  | [val-v2]   | 109  | 1   | 64  | 22   | 0.905     | 0.9429319968105707 | -          |
-| -           | [val-v3]   |      | 3   | 32  | 22   | -         |                    | -          |
-| -           | [val-v4]   |      | 3   | 64  | 22   | -         |                    | -          |
+| -           | [val-v3]   |      | 3   | 32  | 22   | -         | 0.9361734442039716 | -          |
+| -           | [val-v4]   |      | 3   | 64  | 22   | -         | 0.9362114136006379 | -          |
 | [final-v3]  | -          | 110  | 7   | 32  | 22   | 0.907     | -                  | -          |
 | [final-v4]  | -          | 111  | 7   | 64  | 22   | 0.906     | -                  | -          |
 | [final-v5]  | -          | 112  | 9   | 32  | 22   | -         | -                  | -          |
 | [final-v6]  | -          | 113  | 9   | 64  | 22   | -         | -                  | -          |
 | [final-v7]  | -          | 114  | 10  | 64  | 22   | -         | -                  | -          |
 | [final-v8]  | -          | 116  | 7   | 32  | 22   | **0.907** | -                  | TTA weight |
-| [final-v12] | -          | 120  | 8   | 32  | 22   |           | -                  | TTA weight |
-| [final-v9]  | -          | 117  | 9   | 32  | 22   |           | -                  | TTA weight |
+| [final-v12] | -          | 120  | 8   | 32  | 22   | 0.907     | -                  | TTA weight |
+| [final-v9]  | -          | 117  | 9   | 32  | 22   | 0.907     | -                  | TTA weight |
 
 - Model
     - [efficientnet_b4_ns]
@@ -32,8 +32,8 @@
 | Inference   | Validation | Ver.  | TTA | BS  | Seed | Public LB | CV  | Comment    |
 | ---         | ---        | ---   | --- | --- | ---  | ---       | --- | ---        |
 | -           |            | val.4 | 1   | 32  | 22   | -         |     | -          |
-| [final-v10] | -          | 118   | 7   | 32  | 22   |           | -   | TTA weight |
-| [final-v11] | -          | 119   | 9   | 32  | 22   |           | -   | TTA weight |
+| [final-v10] | -          | 118   | 7   | 32  | 22   | 0.907     | -   | TTA weight |
+| [final-v11] | -          | 119   | 9   | 32  | 22   | 0.906     | -   | TTA weight |
 
 [final-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/35741622e876fe21950b8bf19358082a9c11692b
 [final-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/2660543d37c5f6c994c43e6f75025553aa276892
