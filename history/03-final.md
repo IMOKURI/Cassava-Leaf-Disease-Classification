@@ -6,22 +6,31 @@
 
 - Model
     - [efficientnet_b4_ns]
-    - [seresnext50_32x4d]
+    - [seresnext50_32x4d_v2]
     - [vit_base_patch16_384]
 
-| Inference  | Validation | Ver. | TTA | BS  | Seed | Public LB | CV                 | Comment       |
-| ---        | ---        | ---  | --- | --- | ---  | ---       | ---                | ---           |
-| [final-v1] | [val-v1]   | 108  | 1   | 32  | 22   | 0.905     | 0.9429319968105707 | -             |
-| [final-v2] | [val-v2]   | 109  | 1   | 64  | 22   | 0.905     | 0.9429319968105707 | -             |
-| -          | [val-v3]   |      | 3   | 32  | 22   | -         |                    | -             |
-| -          | [val-v4]   |      | 3   | 64  | 22   | -         |                    | -             |
-| [final-v3] | -          | 110  | 7   | 32  | 22   | 0.907     | -                  | -             |
-| [final-v4] | -          | 111  | 7   | 64  | 22   | 0.906     | -                  | -             |
-| [final-v5] | -          | 112  | 9   | 32  | 22   | -         | -                  | -             |
-| [final-v6] | -          | 113  | 9   | 64  | 22   | -         | -                  | -             |
-| [final-v7] | -          | 114  | 10  | 64  | 22   | -         | -                  | -             |
-| [final-v8] | -          | 116  | 7   | 32  | 22   | **0.907** | -                  | no TTA weight |
-| [final-v9] | -          | 117  | 9   | 32  | 22   |           | -                  | no TTA weight |
+| Inference  | Validation | Ver. | TTA | BS  | Seed | Public LB | CV                 | Comment    |
+| ---        | ---        | ---  | --- | --- | ---  | ---       | ---                | ---        |
+| [final-v1] | [val-v1]   | 108  | 1   | 32  | 22   | 0.905     | 0.9429319968105707 | -          |
+| [final-v2] | [val-v2]   | 109  | 1   | 64  | 22   | 0.905     | 0.9429319968105707 | -          |
+| -          | [val-v3]   |      | 3   | 32  | 22   | -         |                    | -          |
+| -          | [val-v4]   |      | 3   | 64  | 22   | -         |                    | -          |
+| [final-v3] | -          | 110  | 7   | 32  | 22   | 0.907     | -                  | -          |
+| [final-v4] | -          | 111  | 7   | 64  | 22   | 0.906     | -                  | -          |
+| [final-v5] | -          | 112  | 9   | 32  | 22   | -         | -                  | -          |
+| [final-v6] | -          | 113  | 9   | 64  | 22   | -         | -                  | -          |
+| [final-v7] | -          | 114  | 10  | 64  | 22   | -         | -                  | -          |
+| [final-v8] | -          | 116  | 7   | 32  | 22   | **0.907** | -                  | TTA weight |
+| [final-v9] | -          | 117  | 9   | 32  | 22   |           | -                  | TTA weight |
+
+- Model
+    - [efficientnet_b4_ns]
+    - [seresnext50_32x4d_v1]
+    - [vit_base_patch16_384]
+
+| Inference   | Validation | Ver. | TTA | BS  | Seed | Public LB | CV  | Comment    |
+| ---         | ---        | ---  | --- | --- | ---  | ---       | --- | ---        |
+| [final-v10] | -          | 118  | 7   | 32  | 22   |           | -   | TTA weight |
 
 [final-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/35741622e876fe21950b8bf19358082a9c11692b
 [final-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/2660543d37c5f6c994c43e6f75025553aa276892
@@ -35,5 +44,6 @@
 [val-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f7143beaf5c25829e686f94162cdfa7d0d88d7b1
 [val-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e4e5a946cdce5a90451825fa0578ec5922f0cc93
 [efficientnet_b4_ns]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/f639150116370039666b7bab452abd85932f4d24
-[seresnext50_32x4d]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/fb7397ca97d624eb4db467c3d67a4c492313aaad
+[seresnext50_32x4d_v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/448848da662d9f7347b39439fb0af771ff019fd7
+[seresnext50_32x4d_v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/fb7397ca97d624eb4db467c3d67a4c492313aaad
 [vit_base_patch16_384]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/9b7093ed7501254f7705edd31f96467f2be00d8b
