@@ -25,7 +25,7 @@
 | [final-v9]  | -          | 117  | 9   | 32  | 22   | 0.907     | -                  | TTA weight (even) |
 | [final-v21] | -          | 129  | 10  | 64  | 22   | -         | -                  | TTA weight (even) |
 | [final-v22] | -          | 130  | 7   | 32  | 22   | -         | -                  | TTA weight (10-6) |
-| [final-v23] | -          | 131  | 7   | 32  | 22   | -         | -                  | TTA weight (10-6) |
+| [final-v23] | -          | 131  | 7   | 32  | 22   | -         | -                  | TTA weight (4-6)  |
 | [final-v18] | -          | 126  | 9   | 32  | 22   | -         | -                  | TTA weight (12-8) |
 | [final-v17] | -          | 125  | 9   | 64  | 22   | -         | -                  | TTA weight (12-8) |
 | [final-v19] | -          | 127  | 10  | 64  | 22   | -         | -                  | TTA weight (12-9) |
@@ -68,6 +68,7 @@
 [final-v20]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/ee56054f177b0251293002929747598914c60ac4
 [final-v21]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/516d593ea1c73f911bd88fad86a00f5b692bd37d
 [final-v22]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/05384f440dc7e51cac3e90706ab550aa66946ea1
+[final-v23]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/de47d585a2b257987dbe6367cc2efade5a0bbe0b
 [val-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f7143beaf5c25829e686f94162cdfa7d0d88d7b1
 [val-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e4e5a946cdce5a90451825fa0578ec5922f0cc93
 [efficientnet_b4_ns]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/f639150116370039666b7bab452abd85932f4d24
