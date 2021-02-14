@@ -1,5 +1,9 @@
 # Cassava-Leaf-Disease-Classification
 
+## Score
+
+## Solution
+
 ## History
 
 - [01-starter](history/01-starter.md)
