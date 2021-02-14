@@ -42,7 +42,7 @@
 
 | Inference   | Validation | Ver.  | TTA | BS  | Seed | Public LB | CV                 | Comment           |
 | ---         | ---        | ---   | --- | --- | ---  | ---       | ---                | ---               |
-| -           |            | val.4 | 1   | 32  | 22   | -         | 0.9424763640505752 | -                 |
+| -           | [val-v5]   | val.4 | 1   | 32  | 22   | -         | 0.9424763640505752 | -                 |
 | [final-v10] | -          | 118   | 7   | 32  | 22   | 0.907     | -                  | TTA weight (even) |
 | [final-v11] | -          | 119   | 9   | 32  | 22   | 0.906     | -                  | TTA weight (even) |
 
@@ -73,6 +73,7 @@
 [val-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e4e5a946cdce5a90451825fa0578ec5922f0cc93
 [val-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8cb509a66caa3ec08b1b8dfb26344ff04dfa9372
 [val-v4]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/a90b69a45c7b7ed0606eb66fbf22766f00de6a9a
+[val-v5]: https://www.kaggle.com/imokuri/cassava-validation?scriptVersionId=54208618
 [efficientnet_b4_ns]: https://github.com/imokuri/cassava-leaf-disease-classification/commit/f639150116370039666b7bab452abd85932f4d24
 [seresnext50_32x4d_v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/448848da662d9f7347b39439fb0af771ff019fd7
 [seresnext50_32x4d_v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/fb7397ca97d624eb4db467c3d67a4c492313aaad
