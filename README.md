@@ -1,8 +1,35 @@
 # Cassava-Leaf-Disease-Classification
 
-## Score
+## Result
+
+
+
 
 ## Solution
+
+### Base Model
+
+- EfficientNet B4 with Noisy Student
+- SE-ResNeXt50 (32x4d)
+- Vision Transformer (base patch16)
+
+| Train          | Inference          | Public LB | CV          |
+| ---            | ---                | ---       | ---         |
+| [EfficientNet] | [EfficientNet-inf] | **0.900** | 0.89103     |
+| [SE-ResNeXt50] | [SE-ResNeXt50-inf] | 0.899     | **0.89532** |
+| [ViT]          | [ViT-inf]          | 0.899     | 0.89220     |
+
+[EfficientNet]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/blob/f639150116370039666b7bab452abd85932f4d24/cassava-training.ipynb
+[EfficientNet-inf]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=52135491
+[SE-ResNeXt50]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/blob/fb7397ca97d624eb4db467c3d67a4c492313aaad/cassava-training.ipynb
+[SE-ResNeXt50-inf]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=52812836
+[ViT]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/blob/9b7093ed7501254f7705edd31f96467f2be00d8b/cassava-training.ipynb
+[ViT-inf]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=52893502
+
+### Ensemble
+
+TODO
+
 
 ## History
 
@@ -30,12 +57,6 @@
     - [x] Remove augmentation for final epoch.
     - [x] [`CutMix`](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
     - [x] [MixUp](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/212060)
-
-### Model
-
-- [x] SE Resnext50_32x4d
-- [x] EfficientNet B4 with Noisy Student
-- [x] vision transformer
 
 ### Loss
 
