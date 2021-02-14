@@ -24,6 +24,10 @@
 [ViT]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/blob/9b7093ed7501254f7705edd31f96467f2be00d8b/cassava-training.ipynb
 [ViT-inf]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=52893502
 
+### TTA or not
+
+TODO
+
 ### Ensemble
 
 TODO
