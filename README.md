@@ -1,6 +1,6 @@
 # Cassava-Leaf-Disease-Classification
 
-## Score
+## History
 
 - [01-starter](history/01-starter.md)
 - [02-baseline](history/02-baseline.md)
