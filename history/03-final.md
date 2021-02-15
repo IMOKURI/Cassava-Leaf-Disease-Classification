@@ -39,6 +39,8 @@
 | [final-v14] | -          | 122  | 8   | 32  | 4129 | -         | -                  | 1:1        | -       |
 | [final-v15] | -          | 123  | 9   | 32  | 4129 | -         | -                  | 1:1        | -       |
 | [final-v16] | -          | 124  | 10  | 64  | 4129 | -         | -                  | 1:1        | -       |
+| [final-v27] | -          | 135  | 7   | 32  | 42   |           | -                  | 4:6        | -       |
+| [final-v28] | -          | 136  | 7   | 32  | 556  |           | -                  | 4:6        | -       |
 
 - Model
     - [efficientnet_b4_ns]
@@ -77,6 +79,7 @@
 [final-v24]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/7f74f15ac7ce3edc60a631c2731ce958e2b6055b
 [final-v25]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/2571bcb3819bb3e0dc72be6a202ff1cdb8fe8a55
 [final-v26]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/a700cc5a6dd981595e35a73b0b0b03751658e958
+[final-v27]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/a36f698e680486399a89d34b8871fc4eea3b78c4
 [val-v1]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f7143beaf5c25829e686f94162cdfa7d0d88d7b1
 [val-v2]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/e4e5a946cdce5a90451825fa0578ec5922f0cc93
 [val-v3]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/8cb509a66caa3ec08b1b8dfb26344ff04dfa9372
