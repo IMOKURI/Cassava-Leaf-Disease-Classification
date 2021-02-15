@@ -48,7 +48,7 @@ In other words weighted ensemble between no TTA and TTA.
 
 ## ✏️ Memo
 
-I've tried following techniques for this competition.
+I've used following techniques for this competition.
 
 ### 🍃 Datasets
 
