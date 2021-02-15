@@ -9,7 +9,7 @@
     - [seresnext50_32x4d_v2]
     - [vit_base_patch16_384]
 - Weight ensemble for TTA/noTTA
-    - no TTA:TTA = 1:2
+    - no TTA:TTA = 1:1.5
 
 | Inference   | Validation | Ver. | TTA | BS  | Seed | Public LB | CV                 | Comment           |
 | ---         | ---        | ---  | --- | --- | ---  | ---       | ---                | ---               |
