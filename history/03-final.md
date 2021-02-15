@@ -8,6 +8,8 @@
     - [efficientnet_b4_ns]
     - [seresnext50_32x4d_v2]
     - [vit_base_patch16_384]
+- Weight ensemble for TTA/noTTA
+    - no TTA:TTA = 1:2
 
 | Inference   | Validation | Ver. | TTA | BS  | Seed | Public LB | CV                 | Comment           |
 | ---         | ---        | ---  | --- | --- | ---  | ---       | ---                | ---               |
@@ -26,8 +28,8 @@
 | [final-v21] | -          | 129  | 10  | 64  | 22   | -         | -                  | TTA weight (even) |
 | [final-v22] | -          | 130  | 7   | 32  | 22   | 0.908     | -                  | TTA weight (10-6) |
 | [final-v23] | -          | 131  | 7   | 32  | 22   | **0.908** | -                  | TTA weight (4-6)  |
-| [final-v24] | -          | 132  | 9   | 32  | 22   |           | -                  | TTA weight (5-8)  |
-| [final-v18] | -          | 126  | 9   | 32  | 22   |           | -                  | TTA weight (12-8) |
+| [final-v24] | -          | 132  | 9   | 32  | 22   | 0.907     | -                  | TTA weight (5-8)  |
+| [final-v18] | -          | 126  | 9   | 32  | 22   | 0.907     | -                  | TTA weight (12-8) |
 | [final-v17] | -          | 125  | 9   | 64  | 22   | -         | -                  | TTA weight (12-8) |
 | [final-v19] | -          | 127  | 10  | 64  | 22   | -         | -                  | TTA weight (12-9) |
 | [final-v20] | -          | 128  | 10  | 64  | 22   | -         | -                  | TTA weight (15-9) |
