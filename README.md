@@ -41,9 +41,9 @@ In other words weighted ensemble between no TTA and TTA.
 | [inf-TTA]        | -            | 7   | 0.907     | -      | -          |
 | [inf-TTA-weight] | -            | 7   | **0.908** | -      | 4:6        |
 
-[inf-no-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/35741622e876fe21950b8bf19358082a9c11692b
-[inf-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/eef41a3d1b49cbf98b856c7e7cfb9a694c86b707
-[inf-TTA-weight]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/de47d585a2b257987dbe6367cc2efade5a0bbe0b
+[inf-no-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54132321
+[inf-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54141945
+[inf-TTA-weight]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54244968
 [val-no-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f7143beaf5c25829e686f94162cdfa7d0d88d7b1
 
 ## ✏️ Memo
