@@ -28,7 +28,7 @@
 | [final-v21] | -          | 129  | 10  | 64  | 22   | -         | -                  | TTA weight (even) |
 | [final-v22] | -          | 130  | 7   | 32  | 22   | 0.908     | -                  | TTA weight (10-6) |
 | [final-v23] | -          | 131  | 7   | 32  | 22   | **0.908** | -                  | TTA weight (4-6)  |
-| [final-v26] | -          | 134  | 7   | 32  | 22   |           | -                  | TTA weight (3-6)  |
+| [final-v26] | -          | 134  | 7   | 32  | 22   | 0.908     | -                  | TTA weight (3-6)  |
 | [final-v24] | -          | 132  | 9   | 32  | 22   | 0.907     | -                  | TTA weight (5-8)  |
 | [final-v18] | -          | 126  | 9   | 32  | 22   | 0.907     | -                  | TTA weight (12-8) |
 | [final-v17] | -          | 125  | 9   | 64  | 22   | -         | -                  | TTA weight (12-8) |
