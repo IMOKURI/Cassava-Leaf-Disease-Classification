@@ -11,7 +11,7 @@ This competition is my first image classification competition,
 so many part of my solution came from discussions in this competition.
 I don't have strong single model, but ensemble is suprised me.
 
-### ✔️ Base Model
+### 🎨 Base Model
 
 - EfficientNet B4 with Noisy Student
 - SE-ResNeXt50 (32x4d)
