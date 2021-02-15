@@ -52,39 +52,39 @@ I've tried following techniques for this competition.
 
 ### 🍃 Datasets
 
-- [x] [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
+- [Use 2019 datasets](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook)
 
 ### 🛠️ Preprocessing
 
-- [x] [Image size 512 ~ 384](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
-- [x] [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
-    - [x] [No augmentation for first few epochs.](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/212347)
-    - [x] Reduce augmentation for last few epochs.
-    - [x] Remove augmentation for final epoch.
-    - [x] [CutMix](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
-    - [x] [MixUp](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/212060)
+- [Image size 512 ~ 384](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450)
+- [Additional augumentations](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug#Define-Train\Validation-Image-Augmentations)
+    - [No augmentation for first few epochs.](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/212347)
+    - Reduce augmentation for last few epochs.
+    - Remove augmentation for final epoch.
+    - [CutMix](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/209065)
+    - [MixUp](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/212060)
 
 ### 📉 Loss
 
-- [x] [Bi-Tempered Logistic Loss](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/202017)
-    - [x] [with label smoothing](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook#Bi-Tempered-Loss)
+- [Bi-Tempered Logistic Loss](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/202017)
+    - [with label smoothing](https://www.kaggle.com/piantic/train-cassava-starter-using-various-loss-funcs/notebook#Bi-Tempered-Loss)
 
 ### 🏃 Training
 
-- [x] [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
-    - [x] also vision transformer.
-- [x] Gradient accumulation for increasing batch size.
-- [x] ~~[Distillation](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/214959)~~
-    - [x] ~~[Distillation Loss](https://ramesharvind.github.io/posts/deep-learning/knowledge-distillation/)~~
+- [batch normalization layers frozen for EfficientNet](https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/#tips-for-fine-tuning-efficientnet)
+    - also vision transformer.
+- Gradient accumulation for increasing batch size.
+- ~~[Distillation](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/214959)~~
+    - ~~[Distillation Loss](https://ramesharvind.github.io/posts/deep-learning/knowledge-distillation/)~~
 
 ### 🚀 Inference
 
-- [x] Random seed ensemble.
-- [x] [TTA(Test Time Augmentation)](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-inference-tta)
-    - [x] [10 is the minimum number to establish a stable result.](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/214559#1171803)
-- [x] [Include original image on TTA.](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1153396)
+- Random seed ensemble.
+- [TTA(Test Time Augmentation)](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-inference-tta)
+    - [10 is the minimum number to establish a stable result.](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/214559#1171803)
+- [Include original image on TTA.](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/210921#1153396)
     - Weighted ensemble of original image inference and augmented one.
-- [x] [Light augmentation for inference](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206489)
+- [Light augmentation for inference](https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206489)
 
 ### 💡 Tips
 
