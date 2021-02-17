@@ -9,13 +9,13 @@ Identify the type of disease present on a Cassava Leaf image
 - Public: 7th, 0.908
 - Private: xxx, xxxx
 
-## 🔖 Solution
-
 This competition is my first image classification competition,
 so many part of my solution came from discussions in this competition.
 I've learnt many things from it.
 
 Thank you for all kagglers and organizers for this competition.
+
+## 🔖 Solution
 
 I don't have strong single model, but ensemble is suprised me.
 
