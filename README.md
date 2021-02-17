@@ -49,8 +49,8 @@ In other words weighted ensemble between no TTA and TTA.
 | [inf-TTA]        | -            | 7   | 0.907     |            | -      | 6:6        |
 | [inf-TTA-weight] | -            | 7   | **0.908** |            | -      | 4:6        |
 
-I decided weight by public LB score, So this may overfit to public LB.
-I choose second one is average of no TTA and TTA.
+I decided TTA weight by public LB score, So I think this may overfit to public LB.
+I choose second final submission is average (no weight) of no TTA and TTA.
 
 | Inference     | Validation | TTA | Public LB | Private LB | CV  | TTA weight |
 | ---           | ---        | --- | ---       | ---        | --- | ---        |
