@@ -1,14 +1,20 @@
-# 🍃 Cassava-Leaf-Disease-Classification 🍃
+# 🍃 Cassava Leaf Disease Classification 🍃
 
 [Cassava Leaf Disease Classification](https://www.kaggle.com/c/cassava-leaf-disease-classification/overview)
 
+Identify the type of disease present on a Cassava Leaf image
+
 ## ✨ Result
 
+- Public: 7th, 0.908
+- Private: xxx, xxxx
 
 ## 🔖 Solution
 
 This competition is my first image classification competition,
 so many part of my solution came from discussions in this competition.
+I've learnt many things from it.
+Thank you for all kagglers and organizers for this competition.
 I don't have strong single model, but ensemble is suprised me.
 
 ### 🎨 Base Model
@@ -17,11 +23,11 @@ I don't have strong single model, but ensemble is suprised me.
 - SE-ResNeXt50 (32x4d)
 - Vision Transformer (base patch16)
 
-| Train          | Inference          | Public LB | CV          |
-| ---            | ---                | ---       | ---         |
-| [EfficientNet] | [EfficientNet-inf] | **0.900** | 0.89103     |
-| [SE-ResNeXt50] | [SE-ResNeXt50-inf] | 0.899     | **0.89532** |
-| [ViT]          | [ViT-inf]          | 0.899     | 0.89220     |
+| Train          | Inference          | Public LB | Private LB | CV          |
+| ---            | ---                | ---       | ---        | ---         |
+| [EfficientNet] | [EfficientNet-inf] | **0.900** |            | 0.89103     |
+| [SE-ResNeXt50] | [SE-ResNeXt50-inf] | 0.899     |            | **0.89532** |
+| [ViT]          | [ViT-inf]          | 0.899     |            | 0.89220     |
 
 [EfficientNet]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/blob/f639150116370039666b7bab452abd85932f4d24/cassava-training.ipynb
 [EfficientNet-inf]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=52135491
@@ -35,16 +41,24 @@ I don't have strong single model, but ensemble is suprised me.
 TTA Weight is the ratio between inference of original images and augmented images.
 In other words weighted ensemble between no TTA and TTA.
 
-| Inference        | Validation   | TTA | Public LB | CV     | TTA weight |
-| ---              | ---          | --- | ---       | ---    | ---        |
-| [inf-no-TTA]     | [val-no-TTA] | 1   | 0.905     | 0.9429 | -          |
-| [inf-TTA]        | -            | 7   | 0.907     | -      | -          |
-| [inf-TTA-weight] | -            | 7   | **0.908** | -      | 4:6        |
+| Inference        | Validation   | TTA | Public LB | Private LB | CV     | TTA weight |
+| ---              | ---          | --- | ---       | ---        | ---    | ---        |
+| [inf-no-TTA]     | [val-no-TTA] | 1   | 0.905     |            | 0.9429 | -          |
+| [inf-TTA]        | -            | 7   | 0.907     |            | -      | 6:6        |
+| [inf-TTA-weight] | -            | 7   | **0.908** |            | -      | 4:6        |
+
+I decided weight by public LB score, So this may overfit to public LB.
+I choose second one is average of no TTA and TTA.
+
+| Inference     | Validation | TTA | Public LB | Private LB | CV  | TTA weight |
+| ---           | ---        | --- | ---       | ---        | --- | ---        |
+| [inf-TTA-avg] | -          | 9   | **0.908** |            | -   | 8:8        |
 
 [inf-no-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54132321
 [inf-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54141945
 [inf-TTA-weight]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54244968
 [val-no-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f7143beaf5c25829e686f94162cdfa7d0d88d7b1
+[inf-TTA-avg]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54414735
 
 ## ✏️ Memo
 
