@@ -40,21 +40,20 @@ I don't have a strong single model, but the ensemble has surprised me.
 
 ### 🐎 Ensemble and TTA
 
-TTA Weight is the ratio between inference of original images and augmented images.
-In other words weighted ensemble between no TTA and TTA.
+I tried weighted average of no TTA and TTA.
 
-| Inference        | Validation   | TTA | Public LB | Private LB | CV     | TTA weight |
-| ---              | ---          | --- | ---       | ---        | ---    | ---        |
-| [inf-no-TTA]     | [val-no-TTA] | 1   | 0.905     |            | 0.9429 | -          |
-| [inf-TTA]        | -            | 7   | 0.907     |            | -      | 6:6        |
-| [inf-TTA-weight] | -            | 7   | **0.908** |            | -      | 4:6        |
+| Inference        | Validation   | TTA           | Public LB | Private LB | CV     | TTA weight |
+| ---              | ---          | ---           | ---       | ---        | ---    | ---        |
+| [inf-no-TTA]     | [val-no-TTA] | noTTA         | 0.905     |            | 0.9429 | -          |
+| [inf-TTA]        | -            | noTTA + TTAx6 | 0.907     |            | -      | 6:6        |
+| [inf-TTA-weight] | -            | noTTA + TTAx6 | **0.908** |            | -      | 4:6        |
 
 I decided TTA weight by public LB score, So I think this may overfit to public LB.
 I choose second final submission is average (no weight) of no TTA and TTA.
 
-| Inference     | Validation | TTA | Public LB | Private LB | CV  | TTA weight |
-| ---           | ---        | --- | ---       | ---        | --- | ---        |
-| [inf-TTA-avg] | -          | 10  | **0.908** |            | -   | 9:9        |
+| Inference     | Validation | TTA           | Public LB | Private LB | CV  | TTA weight |
+| ---           | ---        | ---           | ---       | ---        | --- | ---        |
+| [inf-TTA-avg] | -          | noTTA + TTAx9 | **0.908** |            | -   | 9:9        |
 
 [inf-no-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54132321
 [inf-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54141945
