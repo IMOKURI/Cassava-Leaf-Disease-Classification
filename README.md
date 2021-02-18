@@ -48,8 +48,8 @@ I tried weighted average of no TTA and TTA.
 | [inf-TTA]        | -            | noTTA + TTAx6 | 0.907     |            | -      | 6:6        |
 | [inf-TTA-weight] | -            | noTTA + TTAx6 | **0.908** |            | -      | 4:6        |
 
-I decided TTA weight by public LB score, So I think this may overfit to public LB.
-I choose second final submission is average (no weight) of no TTA and TTA.
+I decided TTA weight by the public LB score, So I think this may overfit to public LB.
+I choose second final submission is average of no TTA and TTA.
 
 | Inference     | Validation | TTA           | Public LB | Private LB | CV  | TTA weight |
 | ---           | ---        | ---           | ---       | ---        | --- | ---        |
