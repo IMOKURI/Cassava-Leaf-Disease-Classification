@@ -58,7 +58,7 @@ I choose second final submission is average of no TTA and TTA.
 [inf-no-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54132321
 [inf-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54141945
 [inf-TTA-weight]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54244968
-[val-no-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/commit/f7143beaf5c25829e686f94162cdfa7d0d88d7b1
+[val-no-TTA]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/blob/f7143beaf5c25829e686f94162cdfa7d0d88d7b1/cassava-validation.ipynb
 [inf-TTA-avg]: https://www.kaggle.com/imokuri/cassava-inference/execution?scriptVersionId=54503857
 
 ## ✏️ Memo
