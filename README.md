@@ -10,7 +10,7 @@ Identify the type of disease present on a Cassava Leaf image
 - Private: xxx, xxxx
 
 This competition is my first image classification competition,
-so many parts of my solution came from discussions in this competition.
+so many parts of my solution came from public notebooks and discussions in this competition.
 I've learnt many things from it.
 
 Thank you for all kagglers and organizers for this competition.
@@ -53,7 +53,7 @@ I choose second final submission is average (no weight) of no TTA and TTA.
 
 | Inference     | Validation | TTA           | Public LB | Private LB | CV  | TTA weight |
 | ---           | ---        | ---           | ---       | ---        | --- | ---        |
-| [inf-TTA-avg] | -          | noTTA + TTAx9 | **0.908** |            | -   | 9:9        |
+| [inf-TTA-avg] | -          | noTTA + TTAx9 | 0.908     |            | -   | 9:9        |
 
 [inf-no-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54132321
 [inf-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54141945
