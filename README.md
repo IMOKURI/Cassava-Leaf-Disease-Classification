@@ -6,14 +6,16 @@ Identify the type of disease present on a Cassava Leaf image
 
 ## ✨ Result
 
+- Private: 31th, 0.901
 - Public: 8th, 0.908
-- Private: xxx, xxxx
 
 This competition is my first image classification competition,
 so many parts of my solution came from public notebooks and discussions in this competition.
 I've learnt many things from it.
 
 Thank you for all kagglers and organizers for this competition.
+
+And I'm happy to get a solo silver as my first medal!
 
 ## 🔖 Solution
 
@@ -27,9 +29,9 @@ I don't have a strong single model, but the ensemble has surprised me.
 
 | Train          | Inference          | Public LB | Private LB | CV          |
 | ---            | ---                | ---       | ---        | ---         |
-| [EfficientNet] | [EfficientNet-inf] | **0.900** |            | 0.89103     |
-| [SE-ResNeXt50] | [SE-ResNeXt50-inf] | 0.899     |            | **0.89532** |
-| [ViT]          | [ViT-inf]          | 0.899     |            | 0.89220     |
+| [EfficientNet] | [EfficientNet-inf] | **0.900** | 0.891      | 0.89103     |
+| [SE-ResNeXt50] | [SE-ResNeXt50-inf] | 0.899     | 0.894      | **0.89532** |
+| [ViT]          | [ViT-inf]          | 0.899     | 0.890      | 0.89220     |
 
 [EfficientNet]: https://github.com/IMOKURI/Cassava-Leaf-Disease-Classification/blob/f639150116370039666b7bab452abd85932f4d24/cassava-training.ipynb
 [EfficientNet-inf]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=52135491
@@ -44,16 +46,16 @@ I tried weighted average of no TTA and TTA.
 
 | Inference        | Validation   | TTA           | Public LB | Private LB | CV     | TTA weight |
 | ---              | ---          | ---           | ---       | ---        | ---    | ---        |
-| [inf-no-TTA]     | [val-no-TTA] | noTTA         | 0.905     |            | 0.9429 | -          |
-| [inf-TTA]        | -            | noTTA + TTAx6 | 0.907     |            | -      | 6:6        |
-| [inf-TTA-weight] | -            | noTTA + TTAx6 | **0.908** |            | -      | 4:6        |
+| [inf-no-TTA]     | [val-no-TTA] | noTTA         | 0.905     | 0.896      | 0.9429 | -          |
+| [inf-TTA]        | -            | noTTA + TTAx6 | 0.907     | 0.899      | -      | 6:6        |
+| [inf-TTA-weight] | -            | noTTA + TTAx6 | **0.908** | 0.900      | -      | 4:6        |
 
 I decided TTA weight by the public LB score, So I think this may overfit to public LB.
 I choose second final submission is average of no TTA and TTA.
 
 | Inference     | Validation | TTA           | Public LB | Private LB | CV  | TTA weight |
 | ---           | ---        | ---           | ---       | ---        | --- | ---        |
-| [inf-TTA-avg] | -          | noTTA + TTAx9 | 0.908     |            | -   | 9:9        |
+| [inf-TTA-avg] | -          | noTTA + TTAx9 | 0.908     | 0.901      | -   | 9:9        |
 
 [inf-no-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54132321
 [inf-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54141945
