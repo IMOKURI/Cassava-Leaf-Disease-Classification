@@ -6,8 +6,8 @@ Identify the type of disease present on a Cassava Leaf image
 
 ## ✨ Result
 
-- Private: 31th, 0.901
-- Public: 8th, 0.908
+- Private: 28th, 0.9010
+- Public: 8th, 0.9086
 
 This competition is my first image classification competition,
 so many parts of my solution came from public notebooks and discussions in this competition.
