@@ -55,7 +55,7 @@ I choose second final submission is average of no TTA and TTA.
 
 | Inference     | Validation | TTA           | Public LB | Private LB | CV  | TTA weight |
 | ---           | ---        | ---           | ---       | ---        | --- | ---        |
-| [inf-TTA-avg] | -          | noTTA + TTAx9 | 0.908     | 0.901      | -   | 9:9        |
+| [inf-TTA-avg] | -          | noTTA + TTAx9 | 0.908     | **0.901**  | -   | 9:9        |
 
 [inf-no-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54132321
 [inf-TTA]: https://www.kaggle.com/imokuri/cassava-inference?scriptVersionId=54141945
